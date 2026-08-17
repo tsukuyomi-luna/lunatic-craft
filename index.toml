@@ -21,6 +21,10 @@ file = "config/jmsharedmaps-common.toml"
 hash = "e081371f1e34e71f2e15db4bf2892c65097dc3b2365844b178759071534beb27"
 
 [[files]]
+file = "config/quark-common.toml"
+hash = "f75acf58fe79a98e20bb7a9d66b868cc0381142b4cce4e0eca8804e6527dd440"
+
+[[files]]
 file = "defaultconfigs/jmsharedmaps-server.toml"
 hash = "46ca449e02b4364f16377be46f35e6c3324da7d56ad11b1649b9005d6c23f509"
 

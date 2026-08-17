@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 - 2026-08-18
+
+- Quarkの全recipe自動解除を無効化し、Stellarityのspellbookがlogin時に誤発動する問題を修正
+
 ## 0.1.0 - 2026-08-17
 
 最初のLunatic Craft版

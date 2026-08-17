@@ -8,7 +8,7 @@ Minecraft 1.20.1 / Forge 47.4.22向けの、工業・魔術・探索・ボス・
 
 ## バージョン
 
-- Lunatic Craft 0.1.0
+- Lunatic Craft 0.1.1
 - Minecraft 1.20.1
 - Forge 47.4.22
 - Java 17
