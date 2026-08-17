@@ -8,6 +8,7 @@
 - packwizをclientとserverの共通配布元に採用
 - 七呪の指輪を新規playerの標準装備に設定
 - JourneyMap Shared Mapsで探索済み地形を共有
+- Discord Integration ForgeでMinecraftとDiscordのchatを連携
 - Enhanced AIの強制teleport、壁越し索敵、block破壊、友好mob変更を無効化
 - L2 Weaponry、音響・HUD・操作性・安定化modを追加
 - Hyperlink Creator VRXを複数modの終盤素材を使う9x9 recipeへ変更

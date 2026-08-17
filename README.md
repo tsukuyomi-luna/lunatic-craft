@@ -27,7 +27,7 @@ Prism Launcher向けの初回導入zipを[Releases](https://github.com/tsukuyomi
 - 魔術 — Ars Nouveau、Iron's Spells 'n Spellbooks、Botania、Blood Magic、Occultism、Enigmatic Legacy
 - 探索 — Biomes O' Plenty、Twilight Forest、Ad Astra、Deeper and Darker、Stellarity、各種構造物mod
 - 敵・終盤 — L2 Hostility、Enhanced AI、Enhanced Hordes、Cataclysm、Draconic Evolution、Re:Avaritia
-- 生活・マルチ — Productive Bees、Farmer's Delight、JourneyMap Shared Maps、Simple Voice Chat、FTB Teams / Chunks
+- 生活・マルチ — Productive Bees、Farmer's Delight、JourneyMap Shared Maps、Discord Integration Forge、Simple Voice Chat、FTB Teams / Chunks
 
 完全な一覧は[MOD一覧](docs/MODLIST.md)、設計中の進行は[PROGRESSION_PLAN.md](PROGRESSION_PLAN.md)にあります
 

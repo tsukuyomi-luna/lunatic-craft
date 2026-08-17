@@ -1,6 +1,6 @@
 # MOD一覧
 
-0.1.0時点で220件のmod metadataを管理しています
+0.1.0時点で221件のmod metadataを管理しています
 
 | Mod | Side |
 |---|---|
@@ -60,6 +60,7 @@
 | Cucumber Library | `both` |
 | Curios API | `both` |
 | Cyclops Core | `both` |
+| Discord Integration Forge | `server` |
 | Deeper and Darker | `both` |
 | Draconic Evolution | `both` |
 | Dungeon Now Loading 2% | `both` |
