@@ -1,5 +1,16 @@
 # Validation
 
+## 2026-08-17 / Lunatic Craft 0.1.0 deployment
+
+- Server-side packwiz sync completed after excluding client-only files
+- Removed AllTheLeaks after reproducing its dedicated-server bootstrap crash
+- Re-ran the Forge installer after the earlier memory-starved run left incomplete patched libraries
+- Production service reached `Done (35.718s)` on a fresh world and remained active with no systemd restarts
+- Verified listeners on `25565` and `25575`, and verified RCON with `list`
+- Discord Integration loaded the migrated configuration, started successfully, and registered its commands
+- Verified generated directories for vanilla, Nether, End, Ad Astra, AE2, Blood Magic, Compact Machines, Deeper and Darker, Fantasy Ending, Iron's Spells, TofuCraft, and Twilight Forest dimensions
+- Client launch and a real multiplayer login remain separate interactive checks
+
 ## 2026-08-17 / 0.8.3
 
 - Kept Enhanced AI and Enhanced Hordes installed instead of removing either mod

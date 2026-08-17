@@ -11,4 +11,6 @@
 - Discord Integration ForgeでMinecraftとDiscordのchatを連携
 - Enhanced AIの強制teleport、壁越し索敵、block破壊、友好mob変更を無効化
 - L2 Weaponry、音響・HUD・操作性・安定化modを追加
+- dedicated serverをcrashさせるAllTheLeaksを除外
+- Java 17、packwiz同期、Discord連携を含むsystemd運用を整備
 - Hyperlink Creator VRXを複数modの終盤素材を使う9x9 recipeへ変更
