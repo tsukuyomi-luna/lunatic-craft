@@ -1157,10 +1157,6 @@ hash = "a9421a7a29ac8ee6e0598ea20025ad2c30e6198b796324184600621743437c91"
 metafile = true
 
 [[files]]
-file = "options.txt"
-hash = "659dd36878409eeecec3c6d12958fe4158b401ecce914979feb7d5acda83d8c2"
-
-[[files]]
 file = "pack.png"
 hash = "db3544ec6d736565b2c1857018d2b514e924da1bf2b04c8ce659a5851895314b"
 
