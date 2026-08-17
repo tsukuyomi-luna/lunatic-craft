@@ -1,0 +1,13 @@
+name = "Japanese Language Pack"
+filename = "AzukiV42.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "674cc36753754f37674880c5541c3f7099ba7e97"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8647112
+project-id = 1467905

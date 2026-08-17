@@ -1,0 +1,3 @@
+# Luna Kitchen Sink slot defaults. Loaded server-side and synced to clients.
+# Keep room for accessory-heavy progression without making every Curio stack freely.
+slots = ["id=ring;size=4", "id=charm;size=2"]

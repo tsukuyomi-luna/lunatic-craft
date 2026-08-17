@@ -1,0 +1,13 @@
+name = "TiCEX - Tinkers Construct EX"
+filename = "ticex-mc1.20.1-0.6.1-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "600f00198e9c82332cf01c606966fb93afccdb59"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8351470
+project-id = 1242469

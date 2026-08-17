@@ -1,0 +1,29 @@
+{
+  "type": "hyperdaimc:shaped_desk",
+  "minecraft": true,
+  "pattern": [
+    "INNNNNNNI",
+    "NCCCCCCCN",
+    "NAAAGAAAN",
+    "NCGBEBGCN",
+    "NCEB?BECN",
+    "NCGBEBGCN",
+    "NAAAGAAAN",
+    "NPPPPPPPN",
+    "INNNNNNNI"
+  ],
+  "key": {
+    "I": { "item": "avaritia:infinity_ingot" },
+    "N": { "item": "avaritia:neutron_ingot" },
+    "C": { "item": "draconicevolution:chaotic_core" },
+    "A": { "item": "mekanism:pellet_antimatter" },
+    "G": { "item": "botania:gaia_ingot" },
+    "B": { "item": "bloodmagic:etherealslate" },
+    "E": { "item": "enigmaticlegacy:cosmic_heart" },
+    "P": { "item": "avaritia:infinity_catalyst" },
+    "?": { "item": "hyperdaimc:game_orb" }
+  },
+  "result": {
+    "item": "hyperdaimc:vrx"
+  }
+}

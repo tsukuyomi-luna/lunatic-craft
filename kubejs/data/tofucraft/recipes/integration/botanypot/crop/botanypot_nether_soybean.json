@@ -1,0 +1,35 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "tofucraft:seeds_soybeans_nether"
+  },
+  "categories": [
+    "soul_sand",
+    "crimson_nylium"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "tofucraft:soybean_nether",
+    "properties": {
+      "age": 7
+    }
+  },
+  "drops": [
+    {
+      "chance": 0.75,
+      "output": {
+        "item": "tofucraft:seeds_soybeans_nether"
+      },
+      "minRolls": 1,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "tofucraft:seeds_soybeans_nether"
+      },
+      "minRolls": 1,
+      "maxRolls": 3
+    }
+  ]
+}

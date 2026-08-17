@@ -1,0 +1,13 @@
+# Changelog
+
+## 0.1.0 - 2026-08-17
+
+最初のLunatic Craft版
+
+- 旧開発名Luna Kitchen Sinkから改名し、versionを0.1.0へreset
+- packwizをclientとserverの共通配布元に採用
+- 七呪の指輪を新規playerの標準装備に設定
+- JourneyMap Shared Mapsで探索済み地形を共有
+- Enhanced AIの強制teleport、壁越し索敵、block破壊、友好mob変更を無効化
+- L2 Weaponry、音響・HUD・操作性・安定化modを追加
+- Hyperlink Creator VRXを複数modの終盤素材を使う9x9 recipeへ変更

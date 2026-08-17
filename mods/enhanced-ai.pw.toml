@@ -1,0 +1,13 @@
+name = "Enhanced AI"
+filename = "enhancedai-3.3.7.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3e51630f66b305201d2e2f64fd9f640e41f9a5a9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8287354
+project-id = 515276

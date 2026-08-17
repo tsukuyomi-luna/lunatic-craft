@@ -1,0 +1,45 @@
+[Render]
+	# Disable CIL(CustomInLevel) render.
+	noModRender = false
+	# Set uom aberration post effect multiplier.
+	aberrationMultiplier = 1.0
+	# Render TimeStop shock wave effect.
+	timestopBall = true
+
+	[Render.CosmicShader]
+		# Enable cosmic renderer.
+		cosmicRenderer = true
+		# Cosmic shader scale.
+		cosmicScale = 1.0
+		# Cosmic texture covering the item.
+		wrappedTextureLocation = "fantasy_ending:textures/shader/star2.png"
+		# Cosmic render speed multiplier.
+		cosmicSpeedMultiplier = 1.0
+
+	[Render.Screen]
+		# Modify x origin of RunicShield overlay.
+		runicShieldPosX = 0
+		# Modify y origin of RunicShield overlay.
+		runicShieldPosY = 0
+
+	[Render.Entity]
+		# Use the cute UOM-chan model for the Ultimate Order Manager.
+		uomChanMode = true
+		# Render the white ring for UOM-chan.
+		uomChanRingRender = true
+
+		[Render.Entity.Player]
+			# Use Fantasy armor sets' no-right-delay mode.
+			feArmor_noRightDelay = false
+
+	[Render.Shader]
+		# Use the special Faded Void sky renderer.
+		fadedVoidSky = true
+
+[Music]
+	# Enable UOM boss music.
+	enableUomMusic = true
+	# UOM boss music volume.
+	uomMusicVolume = 1.0
+	# Select UOM boss music (0-1).
+	uomMusicId = 0

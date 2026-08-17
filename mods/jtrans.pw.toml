@@ -1,0 +1,13 @@
+name = "All Japanese Translate"
+filename = "jtrans-1.4.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4a38d283f83da2e86fbb1aa04bbe4b5da6348183"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8643958
+project-id = 1505335
