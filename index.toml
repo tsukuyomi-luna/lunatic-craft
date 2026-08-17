@@ -1028,7 +1028,7 @@ metafile = true
 
 [[files]]
 file = "mods/stellarity.pw.toml"
-hash = "2e3f6c018b00e4308cd0a7febccbf67d70781472234501bcf8d1139d59d59e35"
+hash = "e50e1b92175c2e59fbfd5d134e4f1e29dae68edfb140b9f7f3c77d5c90c9adf6"
 metafile = true
 
 [[files]]
@@ -1167,7 +1167,7 @@ hash = "db3544ec6d736565b2c1857018d2b514e924da1bf2b04c8ce659a5851895314b"
 
 [[files]]
 file = "resourcepacks/japanese-language-pack.pw.toml"
-hash = "b8b56c7c889f812323dc3a350eeb449d07ac005fb0c2361da35a2976495cfd13"
+hash = "bbba8f4859a8ac712cd1e17df161c15f23a95300168a0796d85801b4dd0c2d41"
 metafile = true
 
 [[files]]
