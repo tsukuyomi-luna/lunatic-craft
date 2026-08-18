@@ -8,8 +8,9 @@
 - Disabled Loot Beams advanced tooltips and look-triggered nametags while retaining its beams and crouch-triggered nametags
 - Refreshed the packwiz index and verified 223 external metadata projects with no duplicate CurseForge or Modrinth project IDs
 - Exported both client and server CurseForge packs; their manifests contain 222 and 196 unique CurseForge projects respectively
+- Created a pre-0.1.2 world/config backup, synchronized the production server, and verified WATUT and CoroUtil were installed while Simple Voice Chat was removed
+- Production reached `Done (4.834s)`, remained active on ports `25565` and `25575`, and answered RCON `list`
 - Client rendering, JER integration, multiplayer WATUT state synchronization, and the Loot Beams behavior remain interactive checks
-- Production server sync and restart remain pending until the active players are ready to restart
 
 ## 2026-08-17 / Lunatic Craft 0.1.0 deployment
 
