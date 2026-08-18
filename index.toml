@@ -21,6 +21,10 @@ file = "config/jmsharedmaps-common.toml"
 hash = "e081371f1e34e71f2e15db4bf2892c65097dc3b2365844b178759071534beb27"
 
 [[files]]
+file = "config/lootbeams-client.toml"
+hash = "888b1a5eabe01e6d6f4a8bef1c4c69ddbeccb56cc0edd3d1f89c75c27a692322"
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "f75acf58fe79a98e20bb7a9d66b868cc0381142b4cce4e0eca8804e6527dd440"
 
@@ -278,6 +282,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "cf8c5f2a139a2571d0d4b8be2b7463255cca721ae4a5741ec71595b7ab530e71"
+metafile = true
+
+[[files]]
+file = "mods/coroutil.pw.toml"
+hash = "9f2bb57e05bad305f03c25c275c6d11e952835a41b2da68dba10a0bd1f3f6261"
 metafile = true
 
 [[files]]
@@ -646,6 +655,11 @@ hash = "89139259629d75551618756428a9709409929fda8ff01b68a0f1343eb61fd6e8"
 metafile = true
 
 [[files]]
+file = "mods/just-enough-resources-jer.pw.toml"
+hash = "3e3a275ab58bd1939d2eebe22095b5db265e33716113ebdee659a78d392b6072"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "1678327ac50408273c1828b631929128d3fdfd54cda7b2e823ce9352495a68ff"
 metafile = true
@@ -981,8 +995,8 @@ hash = "779cc89e86506759e73562cb77fb7136e5af6b7081f9d265588e3fa6b62e2052"
 metafile = true
 
 [[files]]
-file = "mods/simple-voice-chat.pw.toml"
-hash = "9513ac09c89048e99b836510845da11933a7fd6cbd9cfa50073d3b0b31faa98f"
+file = "mods/skin-layers-3d.pw.toml"
+hash = "64b6c95aa49565d14865e84b3460773f329c7344b106c15c32f7820c4592120b"
 metafile = true
 
 [[files]]
@@ -1113,6 +1127,11 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "5ab6f2a4a50bd53506496d3da0c2c09d5a3ca363c3ebc7ca8641ecd3f7104365"
+metafile = true
+
+[[files]]
+file = "mods/what-are-they-up-to.pw.toml"
+hash = "57d69a930e8272c52bed5f54d2d645e6e3e7eab14435901a5c70dbb4af4005a4"
 metafile = true
 
 [[files]]

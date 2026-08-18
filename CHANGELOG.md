@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2 - 2026-08-18
+
+- What Are They Up To、Skin Layers 3D、Just Enough Resourcesを追加
+- Simple Voice Chatを削除
+- Loot Beamsの地面アイテムへ視線を合わせた時に出るtooltipとnametagを無効化
+
 ## 0.1.1 - 2026-08-18
 
 - Quarkの全recipe自動解除を無効化し、Stellarityのspellbookがlogin時に誤発動する問題を修正

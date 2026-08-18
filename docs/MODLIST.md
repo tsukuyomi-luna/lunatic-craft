@@ -1,22 +1,23 @@
 # MOD一覧
 
-0.1.0時点で221件のmod metadataを管理しています
+0.1.2時点で223件のmod metadataを管理しています
 
 | Mod | Side |
 |---|---|
+| [TaCZ] Timeless and Classics Zero Guns | `both` |
 | Ad Astra | `both` |
 | AE2 MEGA Things | `both` |
 | AE2 Things [Forge] | `both` |
-| AllTheLeaks (Memory Leak Fix) | `both` |
+| All Japanese Translate | `both` |
 | Amendments | `both` |
 | Angel Block Renewed | `both` |
 | Animation Overhaul | `client` |
 | Apotheosis | `both` |
 | Apothic Attributes | `both` |
-| Applied Flux | `both` |
 | AppleSkin | `client` |
-| Applied Energistics 2 Wireless Terminals | `both` |
 | Applied Energistics 2 | `both` |
+| Applied Energistics 2 Wireless Terminals | `both` |
+| Applied Flux | `both` |
 | Applied Mekanistics | `both` |
 | Architectury API | `both` |
 | Ars Creo | `both` |
@@ -26,8 +27,8 @@
 | Bagus Lib | `both` |
 | Balm | `both` |
 | Better Advancements | `client` |
-| BetterF3 | `client` |
 | Better P2P | `both` |
+| BetterF3 | `client` |
 | Biomes O' Plenty | `both` |
 | Blood Magic  | `both` |
 | Bookshelf | `both` |
@@ -49,19 +50,20 @@
 | Compact Machines | `both` |
 | Configured | `both` |
 | Controlling | `client` |
+| CoroUtil | `both` |
 | Corpse | `both` |
 | Cosmetic Armor Reworked | `both` |
 | Crafting Tweaks | `both` |
+| Create | `both` |
+| Create Crafts & Additions | `both` |
 | Create: Central Kitchen | `both` |
 | Create: Diesel Generators | `both` |
 | Create: Steam 'n' Rails | `both` |
-| Create | `both` |
-| Create Crafts & Additions | `both` |
 | Cucumber Library | `both` |
 | Curios API | `both` |
 | Cyclops Core | `both` |
-| Discord Integration Forge | `server` |
 | Deeper and Darker | `both` |
+| Discord Integration Forge | `server` |
 | Draconic Evolution | `both` |
 | Dungeon Now Loading 2% | `both` |
 | Embeddium | `both` |
@@ -73,9 +75,9 @@
 | Enhanced AI | `both` |
 | Enhanced Hordes | `both` |
 | Enigmatic Legacy | `both` |
-| ExtendedAE | `both` |
 | Explorer's Compass | `both` |
 | Explorify – Dungeons & Structures | `both` |
+| ExtendedAE | `both` |
 | Extreme sound muffler - (Neo)Forge | `client` |
 | Fantasy Construct | `both` |
 | Fantasy Ending | `both` |
@@ -98,7 +100,6 @@
 | Hostile Neural Networks | `both` |
 | Hyperlink | `both` |
 | Iceberg [Neo/Forge] | `client` |
-| Integrated Dungeons and Structures | `both` |
 | ImmediatelyFast | `client` |
 | Immersive Engineering | `both` |
 | Incendium | `both` |
@@ -106,6 +107,7 @@
 | InsaneLib | `both` |
 | Integrated API | `both` |
 | Integrated Crafting | `both` |
+| Integrated Dungeons and Structures | `both` |
 | Integrated Dynamics | `both` |
 | Integrated Mekanism | `both` |
 | Integrated NBT | `both` |
@@ -118,29 +120,30 @@
 | Iron's Spells 'n Spellbooks | `both` |
 | Jade Addons (Neo/Forge) | `both` |
 | Jade 🔍 | `both` |
-| Just Enough Items (JEI) | `both` |
-| JourneyMap Shared Maps | `both` |
 | JourneyMap | `both` |
-| All Japanese Translate | `both` |
+| JourneyMap Shared Maps | `both` |
+| Just Enough Items (JEI) | `both` |
+| Just Enough Resources (JER) | `client` |
 | Kotlin for Forge | `both` |
 | KubeJS | `both` |
 | L2 Complements | `both` |
 | L2 Hostility | `both` |
 | L2 Library | `both` |
 | L2 Weaponry | `both` |
-| Legendary Tooltips [Neo/Forge] | `client` |
 | L_Ender 's Cataclysm | `both` |
+| Legendary Tooltips [Neo/Forge] | `client` |
 | Lionfish API | `both` |
 | Loot Beams: Relooted! | `client` |
 | Mantle | `both` |
 | McJtyLib | `both` |
+| ME Requester | `both` |
 | Meet Your Fight | `both` |
 | MEGA Cells | `both` |
+| Mekanism | `both` |
 | Mekanism Additions | `both` |
 | Mekanism Generators | `both` |
 | Mekanism Tools | `both` |
-| Mekanism | `both` |
-| ME Requester | `both` |
+| MES - Moog's End Structures | `both` |
 | MmmMmmMmmMmm (Target Dummy) | `both` |
 | MNS - Moog's Nether Structures | `both` |
 | Modern UI | `client` |
@@ -148,12 +151,12 @@
 | Modonomicon | `both` |
 | Modular Routers | `both` |
 | Moff's AddonAPI-DynLoad | `both` |
-| MES - Moog's End Structures | `both` |
 | Moog's Structure Lib (moogs_structures) | `both` |
-| MVS - Moog's Voyager Structures | `both` |
+| Moonlight Lib | `both` |
 | Mouse Tweaks | `client` |
 | Mowzie's Mobs | `both` |
 | MSS - Moog's Soaring Structures | `both` |
+| MVS - Moog's Voyager Structures | `both` |
 | Mysterious Mountain Lib | `both` |
 | Nature's Compass | `both` |
 | Necronomicon API | `client` |
@@ -187,9 +190,8 @@
 | Rhino | `both` |
 | Sakura | `both` |
 | Searchables | `client` |
-| Moonlight Lib | `both` |
 | Simple Backups | `both` |
-| Simple Voice Chat | `both` |
+| Skin Layers 3D | `client` |
 | SmartBrainLib (Forge/Fabric/Quilt) | `both` |
 | Smooth Boot (Reloaded) | `both` |
 | Sophisticated Backpacks | `both` |
@@ -208,7 +210,6 @@
 | The Twilight Forest | `both` |
 | TiCEX - Tinkers Construct EX | `both` |
 | Time in a Bottle | `both` |
-| [TaCZ] Timeless and Classics Zero Guns | `both` |
 | Tinkers Construct | `both` |
 | Titanium | `both` |
 | Toast Control | `client` |
@@ -216,6 +217,7 @@
 | Torchmaster | `both` |
 | Trash Cans | `both` |
 | Waystones | `both` |
+| What Are They Up To (Watut) | `both` |
 | YUNG's API (Forge/NeoForge) | `both` |
 | YUNG's Better Desert Temples (Forge/NeoForge) | `both` |
 | YUNG's Better Dungeons (Forge/NeoForge) | `both` |
