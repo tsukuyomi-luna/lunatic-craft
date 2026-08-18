@@ -6,8 +6,9 @@
 - Removed the now-unused JourneyMap and Shared Maps configuration files
 - Refreshed the packwiz index and verified 222 external metadata projects with no duplicate CurseForge or Modrinth project IDs
 - Exported both client and server CurseForge packs; their manifests contain 220 and 194 unique CurseForge projects respectively
+- Created and checksum-verified a pre-0.1.3 world/config backup, synchronized the production server, and verified the JourneyMap mods and dedicated configuration files were removed while FTB Chunks remained installed
+- Production reached `Done (4.938s)`, remained active on ports `25565` and `25575`, and answered RCON `list`
 - FTB Chunks map and minimap rendering remain interactive client checks
-- Production server sync and restart remain pending
 
 ## 2026-08-18 / Lunatic Craft 0.1.2
 
