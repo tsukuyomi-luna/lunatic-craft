@@ -1,5 +1,0 @@
-[admins]
-# All server operators can use JourneyMap's server administration UI.
-opAccess = true
-# Do not retain JourneyMap's example name and UUID as privileged users.
-serverAdmins = []

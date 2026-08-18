@@ -17,24 +17,12 @@ file = "config/fantasy_ending/fantasy_ending-client.toml"
 hash = "c31bdc32cd6854a2a20bcb3b48339cf312edca763cea25eb4fc2f111973b4986"
 
 [[files]]
-file = "config/jmsharedmaps-common.toml"
-hash = "e081371f1e34e71f2e15db4bf2892c65097dc3b2365844b178759071534beb27"
-
-[[files]]
 file = "config/lootbeams-client.toml"
 hash = "888b1a5eabe01e6d6f4a8bef1c4c69ddbeccb56cc0edd3d1f89c75c27a692322"
 
 [[files]]
 file = "config/quark-common.toml"
 hash = "f75acf58fe79a98e20bb7a9d66b868cc0381142b4cce4e0eca8804e6527dd440"
-
-[[files]]
-file = "defaultconfigs/jmsharedmaps-server.toml"
-hash = "46ca449e02b4364f16377be46f35e6c3324da7d56ad11b1649b9005d6c23f509"
-
-[[files]]
-file = "defaultconfigs/journeymap-server.toml"
-hash = "48cf7e57b4442da24651632794d80448086987eb3134a0b65da47ce1032c2e26"
 
 [[files]]
 file = "kubejs/data/hyperdaimc/recipes/hyper/vrx.json"
@@ -637,16 +625,6 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "29b62d42548542296d9932bcbb8a93ffba0b75b7cc859a67e596aeb1e048ace2"
-metafile = true
-
-[[files]]
-file = "mods/journeymap-shared-maps.pw.toml"
-hash = "9d72164cf9cd47c074147e94ab49af3cb6b05cb2095ba34ef54ebdc184ddb1e0"
-metafile = true
-
-[[files]]
-file = "mods/journeymap.pw.toml"
-hash = "64ae7b958bf028f77d69ee2106d1f8a31f74a83159bf7446f5280aa07e8ba9eb"
 metafile = true
 
 [[files]]

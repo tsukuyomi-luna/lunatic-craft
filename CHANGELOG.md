@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.3 - 2026-08-18
+
+- FTB Chunksと重複していたJourneyMapを削除
+- JourneyMap Shared Mapsと専用設定も削除
+
 ## 0.1.2 - 2026-08-18
 
 - What Are They Up To、Skin Layers 3D、Just Enough Resourcesを追加

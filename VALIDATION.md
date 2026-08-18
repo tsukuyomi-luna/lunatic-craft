@@ -1,5 +1,14 @@
 # Validation
 
+## 2026-08-18 / Lunatic Craft 0.1.3
+
+- Removed JourneyMap 6.0.2 and JourneyMap Shared Maps 1.1.0, retaining FTB Chunks 2001.3.8 as the single map and minimap implementation
+- Removed the now-unused JourneyMap and Shared Maps configuration files
+- Refreshed the packwiz index and verified 222 external metadata projects with no duplicate CurseForge or Modrinth project IDs
+- Exported both client and server CurseForge packs; their manifests contain 220 and 194 unique CurseForge projects respectively
+- FTB Chunks map and minimap rendering remain interactive client checks
+- Production server sync and restart remain pending
+
 ## 2026-08-18 / Lunatic Craft 0.1.2
 
 - Added What Are They Up To 1.2.3 and its CoroUtil 1.3.7 dependency on both client and server

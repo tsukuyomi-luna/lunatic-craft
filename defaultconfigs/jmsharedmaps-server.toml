@@ -1,3 +1,0 @@
-# Share explored terrain globally between all players on the server.
-# Set this to true later if each FTB Teams party should maintain a separate map.
-ftbTeamsOnly = false

@@ -120,8 +120,6 @@
 | Iron's Spells 'n Spellbooks | `both` |
 | Jade Addons (Neo/Forge) | `both` |
 | Jade 🔍 | `both` |
-| JourneyMap | `both` |
-| JourneyMap Shared Maps | `both` |
 | Just Enough Items (JEI) | `both` |
 | Just Enough Resources (JER) | `client` |
 | Kotlin for Forge | `both` |

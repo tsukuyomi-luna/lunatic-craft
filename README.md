@@ -8,7 +8,7 @@ Minecraft 1.20.1 / Forge 47.4.22向けの、工業・魔術・探索・ボス・
 
 ## バージョン
 
-- Lunatic Craft 0.1.2
+- Lunatic Craft 0.1.3
 - Minecraft 1.20.1
 - Forge 47.4.22
 - Java 17
@@ -27,7 +27,7 @@ Prism Launcher向けの初回導入zipを[Releases](https://github.com/tsukuyomi
 - 魔術 — Ars Nouveau、Iron's Spells 'n Spellbooks、Botania、Blood Magic、Occultism、Enigmatic Legacy
 - 探索 — Biomes O' Plenty、Twilight Forest、Ad Astra、Deeper and Darker、Stellarity、各種構造物mod
 - 敵・終盤 — L2 Hostility、Enhanced AI、Enhanced Hordes、Cataclysm、Draconic Evolution、Re:Avaritia
-- 生活・マルチ — Productive Bees、Farmer's Delight、JourneyMap Shared Maps、Discord Integration Forge、What Are They Up To、FTB Teams / Chunks
+- 生活・マルチ — Productive Bees、Farmer's Delight、Discord Integration Forge、What Are They Up To、FTB Teams / Chunks
 
 完全な一覧は[MOD一覧](docs/MODLIST.md)、設計中の進行は[PROGRESSION_PLAN.md](PROGRESSION_PLAN.md)にあります
 
