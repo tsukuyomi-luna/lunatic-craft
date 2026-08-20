@@ -1,5 +1,15 @@
 # Validation
 
+## 2026-08-20 / Lunatic Craft 0.1.4
+
+- Added SlashBlade: Resharped 1.9.65 for both client and server while retaining the existing playerAnimator dependency and the mod's native recipes and progression requirements
+- Refreshed the packwiz index and verified 223 external metadata projects with no duplicate CurseForge or Modrinth project IDs
+- Exported the CurseForge client archive, confirmed version 0.1.4 in `manifest.json`, and passed a complete ZIP integrity test
+- Verified no players were connected before restarting the production service; server-side packwiz sync installed the checksum-matched SlashBlade JAR
+- The production server remained active, reached `Done (4.749s)`, responded over RCON, loaded SlashBlade recipe items during Immersive Engineering recipe analysis, and restarted Discord Integration successfully
+- SlashBlade generated its default common config with its own PvP and friendly-fire settings disabled, consistent with the server's existing PvP policy
+- Client rendering, key bindings, combos, EMI recipe display, multiplayer login, and combat balance with Apotheosis and L2 Hostility still require interactive validation
+
 ## 2026-08-18 / Lunatic Craft 0.1.3
 
 - Removed JourneyMap 6.0.2 and JourneyMap Shared Maps 1.1.0, retaining FTB Chunks 2001.3.8 as the single map and minimap implementation
