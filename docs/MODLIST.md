@@ -189,6 +189,7 @@
 | Sakura | `both` |
 | Searchables | `client` |
 | Simple Backups | `both` |
+| SlashBlade:Resharped | `both` |
 | Skin Layers 3D | `client` |
 | SmartBrainLib (Forge/Fabric/Quilt) | `both` |
 | Smooth Boot (Reloaded) | `both` |

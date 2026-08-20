@@ -978,6 +978,11 @@ hash = "64b6c95aa49565d14865e84b3460773f329c7344b106c15c32f7820c4592120b"
 metafile = true
 
 [[files]]
+file = "mods/slashblade-resharped.pw.toml"
+hash = "efd906678d345d1296dc2d1641a5a6b0bb59815d498756ce1a852ff228bd78b2"
+metafile = true
+
+[[files]]
 file = "mods/smartbrainlib.pw.toml"
 hash = "8d3e9ef52ac3b65fb976629b55652ca30f9ad8b7ff37925c3111ae78386e1a97"
 metafile = true

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.4 - 2026-08-20
+
+- SlashBlade: Resharped 1.9.65を追加
+- 抜刀剣本来の撃破数・精錬・Proud Soul・boss dropによる進行は変更せず、既存のApotheosisやL2 Hostilityを含むcombat環境でplaytestする方針
+
 ## 0.1.3 - 2026-08-18
 
 - FTB Chunksと重複していたJourneyMapを削除

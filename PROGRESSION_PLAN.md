@@ -15,6 +15,7 @@ This is the working plan for survival testing. The first endgame recipe pass is 
 ### 1. Workshop
 
 - Vanilla, Create, Tinkers' Construct, early Ars Nouveau, and basic storage remain easy to enter.
+- SlashBlade: Resharped starts with its native wooden and bamboo blades; named blades keep their built-in kill, refine, Proud Soul, and boss requirements until combat playtesting shows a concrete progression skip.
 - FTB Ultimine stays useful, but its block count and hunger cost should prevent effortless early quarrying.
 - TaCZ ammunition should consume real metal and chemical infrastructure rather than being disposable on day one.
 
