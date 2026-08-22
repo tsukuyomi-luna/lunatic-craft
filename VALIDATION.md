@@ -1,5 +1,14 @@
 # Validation
 
+## 2026-08-23 / Lunatic Craft 0.1.6
+
+- Added Chicken Chunks 1.20.1-2.10.0.100 with its default limits: 400 chunks per loader and 5000 total chunks per player; the existing CodeChickenLib dependency was retained
+- Increased the production FTB Chunks force-load limit from 25 to 100 chunks per team
+- Refreshed the packwiz index, verified 231 mod metadata entries, exported the CurseForge client archive, confirmed Chicken Chunks project/file IDs, and passed a complete ZIP integrity test
+- Production packwiz sync installed the pinned Chicken Chunks JAR; the generated config retained `allowOffline=true`, `chunksPerLoader=400`, and `totalAllowedChunks=5000`
+- Production remained active on ports 25565 and 25575, loaded `chickenchunks 2.10.0.100`, reached `Done (5.948s)`, answered RCON, and restarted Discord Integration successfully
+- Client launch, multiplayer login, Chicken Chunks GUI/rendering and in-world force-loading behavior still require interactive validation
+
 ## 2026-08-22 / Lunatic Craft 0.1.5
 
 - Added Enigmatic Addons 1.2.6 after the initial 0.1.5 deployment; production loaded `enigmaticaddons 1.2.6`, remained active on ports 25565 and 25575, reached `Done (4.975s)`, and answered RCON after the follow-up restart
