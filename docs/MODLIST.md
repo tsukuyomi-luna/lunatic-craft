@@ -1,6 +1,6 @@
 # MOD一覧
 
-0.1.5時点で229件のmod metadataを管理しています
+0.1.5時点で230件のmod metadataを管理しています
 
 | Mod | Side |
 |---|---|
@@ -79,6 +79,7 @@
 | EndingLibrary | `both` |
 | Enhanced AI | `both` |
 | Enhanced Hordes | `both` |
+| Enigmatic Addons | `both` |
 | Enigmatic Legacy | `both` |
 | Explorer's Compass | `both` |
 | Explorify – Dungeons & Structures | `both` |

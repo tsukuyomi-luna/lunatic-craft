@@ -403,6 +403,11 @@ hash = "af72d77fb4f36572f76cf9941d9ef678e62cc29b75dc9db7ce0d678418919fcf"
 metafile = true
 
 [[files]]
+file = "mods/enigmatic-addons.pw.toml"
+hash = "33aa32fd4a7486e1e2f1dbfc0a6b85617eb91962b8b522092102c69e2fddb029"
+metafile = true
+
+[[files]]
 file = "mods/enigmatic-legacy.pw.toml"
 hash = "76700218b9a2e6ca8854512ca7c90511c756ae7f76a93fa81518d9d0e81ef084"
 metafile = true

@@ -2,6 +2,7 @@
 
 ## 0.1.5 - 2026-08-22
 
+- Enigmatic Addons 1.2.6を追加
 - Apotheosis Modern Ragnarok: Zero 7.0.0、IronsArms 3.0.6、Maxstuff 1.8.3 hotfix、TaCZ Tweaks 2.14.2を追加
 - Maxstuffの必須依存としてTaCZ Endless Ammo 2.0、TaCZ Tweaksの必須依存としてYetAnotherConfigLib 3.6.6を追加
 - Construction Wand 2.11を追加
