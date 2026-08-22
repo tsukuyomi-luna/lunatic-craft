@@ -1,5 +1,16 @@
 # Validation
 
+## 2026-08-22 / Lunatic Craft 0.1.5
+
+- Added Apotheosis Modern Ragnarok: Zero 7.0.0, IronsArms 3.0.6, Maxstuff 1.8.3 hotfix, TaCZ Tweaks 2.14.2, and Construction Wand 2.11
+- Added Maxstuff's required Endless Ammo 2.0 and TaCZ Tweaks' required YetAnotherConfigLib 3.6.6 dependencies
+- Changed Loot Beams from the higher-priority `all_items` mode to `only_rare`, so Common items no longer render beams; this client-side behavior still requires an interactive visual check
+- Refreshed the packwiz index and verified 229 external metadata projects with no duplicate CurseForge or Modrinth project IDs
+- Exported the CurseForge client archive, confirmed version 0.1.5 with 228 unique CurseForge projects plus the bundled Modrinth override, and passed a complete ZIP integrity test
+- Verified no players were connected before restarting production; server-side packwiz sync installed all seven added projects and dependencies
+- The production service remained active on ports 25565 and 25575, loaded all added server-side mods at their pinned versions, reached `Done (5.215s)`, answered RCON, and restarted Discord Integration successfully
+- Client launch, TaCZ gun and spell behavior, Apotheosis affixes, Construction Wand controls and recipes, EMI display, and multiplayer login still require interactive validation
+
 ## 2026-08-20 / Lunatic Craft 0.1.4
 
 - Added SlashBlade: Resharped 1.9.65 for both client and server while retaining the existing playerAnimator dependency and the mod's native recipes and progression requirements
