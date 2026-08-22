@@ -18,7 +18,7 @@ hash = "c31bdc32cd6854a2a20bcb3b48339cf312edca763cea25eb4fc2f111973b4986"
 
 [[files]]
 file = "config/lootbeams-client.toml"
-hash = "888b1a5eabe01e6d6f4a8bef1c4c69ddbeccb56cc0edd3d1f89c75c27a692322"
+hash = "a5f4c862bb1375976327bc9ce744608e43cc5f18efc6c289024e95a73258dbfd"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -76,6 +76,11 @@ metafile = true
 [[files]]
 file = "mods/animationoverhaul.pw.toml"
 hash = "1ea7cf3b197d3ba6601a34a18ec7d5f769611920f0c93fd015127908599197dc"
+metafile = true
+
+[[files]]
+file = "mods/apotheosis-modern-ragnarok.pw.toml"
+hash = "154a8dd7df8e28fe4ffe39f5cb93dd87be13aef41246caec7d3b7361163673d0"
 metafile = true
 
 [[files]]
@@ -265,6 +270,11 @@ metafile = true
 [[files]]
 file = "mods/configured.pw.toml"
 hash = "c1bdeff356cd2ac164e2c0e6d0ceeda234db9774c2df44fb9f0e71d3960cc3f1"
+metafile = true
+
+[[files]]
+file = "mods/construction-wand.pw.toml"
+hash = "1613f68b9bdd242a957a3a20c5193b640672d11087abcb5c3abe5da45b235e35"
 metafile = true
 
 [[files]]
@@ -613,6 +623,11 @@ hash = "4f89e36cf31ce139ab798c6ae457fb59e6c5ecbe40632ec95450cd2c43604c84"
 metafile = true
 
 [[files]]
+file = "mods/ironsarms.pw.toml"
+hash = "a90207208698ce946a589baaf00a94f88b07e0c894f1d8398accf20444324fc0"
+metafile = true
+
+[[files]]
 file = "mods/jade-addons.pw.toml"
 hash = "b567b36a696b3b1a63b3306727440fcb047bc1cbeafa836579f87dc7284513bf"
 metafile = true
@@ -690,6 +705,11 @@ metafile = true
 [[files]]
 file = "mods/mantle.pw.toml"
 hash = "6164ce697ea02e49911afd5666dcb1d5f83ed0fff9b290def0a7a7c440c1c39b"
+metafile = true
+
+[[files]]
+file = "mods/maxstuff.pw.toml"
+hash = "571cb261baff69defc7411e285c5a275d0ab5a256b7e511104bba41ecc33fac8"
 metafile = true
 
 [[files]]
@@ -1053,6 +1073,16 @@ hash = "148bc9c5989ac676d91b6f07a5e871d7b5d11c1b7b46fe30c3894c1512069a88"
 metafile = true
 
 [[files]]
+file = "mods/tacz-endless-ammo.pw.toml"
+hash = "914c07bd756d6f4430c4841883307be5f17043318772cd4685d96e19d4abe764"
+metafile = true
+
+[[files]]
+file = "mods/tacz-tweaks.pw.toml"
+hash = "b4d15c5213b212c0cbefbb5f426ec29a1ac0e051b7f41bd463b5c5a203d8ae8b"
+metafile = true
+
+[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "fde3d3b1607636100e382dce1bba80ab4608ebfa1ef888a37b86bc8c7dcbafe5"
 metafile = true
@@ -1115,6 +1145,11 @@ metafile = true
 [[files]]
 file = "mods/what-are-they-up-to.pw.toml"
 hash = "57d69a930e8272c52bed5f54d2d645e6e3e7eab14435901a5c70dbb4af4005a4"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "c08817fe8025a9d62c8f7abd5f56a54b90673e5ab60f39ae8fa1d70d5ace529b"
 metafile = true
 
 [[files]]

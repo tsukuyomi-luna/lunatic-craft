@@ -1,0 +1,13 @@
+name = "[Tacz]Maxstuff"
+filename = "maxstuff-legacy-1.8.3_hotfix.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5e22c41ec0b5f95e56f1f6485da37faae446ff6d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8693360
+project-id = 1199923

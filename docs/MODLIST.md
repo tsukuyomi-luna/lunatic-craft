@@ -1,10 +1,13 @@
 # MOD一覧
 
-0.1.2時点で223件のmod metadataを管理しています
+0.1.5時点で229件のmod metadataを管理しています
 
 | Mod | Side |
 |---|---|
+| [TaCZ] Endless Ammo | `both` |
+| [TaCZ] IronsArms - Iron's Spells 'n Spellbooks & Timeless and Classics Zero | `both` |
 | [TaCZ] Timeless and Classics Zero Guns | `both` |
+| [Tacz]Maxstuff | `both` |
 | Ad Astra | `both` |
 | AE2 MEGA Things | `both` |
 | AE2 Things [Forge] | `both` |
@@ -13,6 +16,7 @@
 | Angel Block Renewed | `both` |
 | Animation Overhaul | `client` |
 | Apotheosis | `both` |
+| Apotheosis Modern Ragnarok: Zero | `both` |
 | Apothic Attributes | `both` |
 | AppleSkin | `client` |
 | Applied Energistics 2 | `both` |
@@ -49,6 +53,7 @@
 | Common Capabilities | `both` |
 | Compact Machines | `both` |
 | Configured | `both` |
+| Construction Wand | `both` |
 | Controlling | `client` |
 | CoroUtil | `both` |
 | Corpse | `both` |
@@ -189,8 +194,8 @@
 | Sakura | `both` |
 | Searchables | `client` |
 | Simple Backups | `both` |
-| SlashBlade:Resharped | `both` |
 | Skin Layers 3D | `client` |
+| SlashBlade: Resharped | `both` |
 | SmartBrainLib (Forge/Fabric/Quilt) | `both` |
 | Smooth Boot (Reloaded) | `both` |
 | Sophisticated Backpacks | `both` |
@@ -205,6 +210,7 @@
 | SuperMartijn642's Config Lib | `both` |
 | SuperMartijn642's Core Lib | `both` |
 | Supplementaries | `both` |
+| TaCZ Tweaks | `both` |
 | TerraBlender (Forge) | `both` |
 | The Twilight Forest | `both` |
 | TiCEX - Tinkers Construct EX | `both` |
@@ -217,6 +223,7 @@
 | Trash Cans | `both` |
 | Waystones | `both` |
 | What Are They Up To (Watut) | `both` |
+| YetAnotherConfigLib | `both` |
 | YUNG's API (Forge/NeoForge) | `both` |
 | YUNG's Better Desert Temples (Forge/NeoForge) | `both` |
 | YUNG's Better Dungeons (Forge/NeoForge) | `both` |
