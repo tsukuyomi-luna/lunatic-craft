@@ -2,6 +2,7 @@
 
 ## 2026-08-22 / Lunatic Craft 0.1.5
 
+- Added Enigmatic Addons 1.2.6 after the initial 0.1.5 deployment; production loaded `enigmaticaddons 1.2.6`, remained active on ports 25565 and 25575, reached `Done (4.975s)`, and answered RCON after the follow-up restart
 - Added Apotheosis Modern Ragnarok: Zero 7.0.0, IronsArms 3.0.6, Maxstuff 1.8.3 hotfix, TaCZ Tweaks 2.14.2, and Construction Wand 2.11
 - Added Maxstuff's required Endless Ammo 2.0 and TaCZ Tweaks' required YetAnotherConfigLib 3.6.6 dependencies
 - Changed Loot Beams from the higher-priority `all_items` mode to `only_rare`, so Common items no longer render beams; this client-side behavior still requires an interactive visual check
