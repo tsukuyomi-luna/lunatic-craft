@@ -238,6 +238,11 @@ hash = "ebcc4d25891c6fcf456064ca2591b02c0cb4c4f03aee96290f94dfea97d5275c"
 metafile = true
 
 [[files]]
+file = "mods/chicken-chunks-1-8.pw.toml"
+hash = "0f79e36c3b0b299046d61c7b7d6801ed986afa4c1853882e0a85ece2243b67ba"
+metafile = true
+
+[[files]]
 file = "mods/chipped.pw.toml"
 hash = "71a33fe41bead909b3e95643351ef8015def70d3cb083916469f492f66434b45"
 metafile = true

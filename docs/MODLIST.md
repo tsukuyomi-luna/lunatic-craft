@@ -1,6 +1,6 @@
 # MOD一覧
 
-0.1.5時点で230件のmod metadataを管理しています
+0.1.6時点で231件のmod metadataを管理しています
 
 | Mod | Side |
 |---|---|
@@ -46,6 +46,7 @@
 | Carry On | `both` |
 | CB Multipart | `both` |
 | Chat Heads | `client` |
+| Chicken Chunks 1.8.+ | `both` |
 | Chipped | `both` |
 | Chunky (Forge/NeoForge) | `both` |
 | Cloth Config API (Fabric/Forge/NeoForge) | `both` |
