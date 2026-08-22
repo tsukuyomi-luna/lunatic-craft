@@ -7,7 +7,7 @@
 - Refreshed the packwiz index, verified 231 mod metadata entries, exported the CurseForge client archive, confirmed Chicken Chunks project/file IDs, and passed a complete ZIP integrity test
 - Production packwiz sync installed the pinned Chicken Chunks JAR; the generated config retained `allowOffline=true`, `chunksPerLoader=400`, and `totalAllowedChunks=5000`
 - Production remained active on ports 25565 and 25575, loaded `chickenchunks 2.10.0.100`, reached `Done (5.948s)`, answered RCON, and restarted Discord Integration successfully
-- Client launch, multiplayer login, Chicken Chunks GUI/rendering and in-world force-loading behavior still require interactive validation
+- The updated client completed pack sync and shun logged into production successfully; Chicken Chunks GUI/rendering and in-world force-loading behavior still require interactive validation
 
 ## 2026-08-22 / Lunatic Craft 0.1.5
 
