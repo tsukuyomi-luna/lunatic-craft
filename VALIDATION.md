@@ -1,5 +1,15 @@
 # Validation
 
+## 2026-08-23 / Lunatic Craft 0.1.7
+
+- Added Cooking for Blockheads 16.0.15, Clumps 12.0.0.4, Corpse x Curios API Compat 3.1.3, SlashBlade Japanese Addon Pack 1.2.16, and Just Another Void Dimension 5.0.1
+- Added the required BaguetteLib 1.1.6 and Trenzalore 3.3.10 dependencies
+- Added Cyber Armorer 1.1.5, Create Armorer 1.2.0.1, Applied Armorer 1.1.4.1, and Immersive Armorer 1.2.1 as packwiz-managed files under `tacz/` rather than `mods/`
+- Refreshed the packwiz index, verified 238 mod and four TaCZ gun-pack metadata entries with no duplicate external project IDs, exported the CurseForge client archive, and passed a complete ZIP integrity test
+- Production packwiz sync installed every pinned JAR and gun-pack ZIP; TaCZ discovered all four new packs and their expected namespaces
+- Production remained active on ports 25565 and 25575, reached `Done (5.415s)`, answered RCON, and restarted Discord Integration successfully
+- Client launch, multiplayer login, TaCZ gun models and scripts, Cooking for Blockheads UI, SlashBlade items and abilities, and JAVD portal travel still require interactive validation
+
 ## 2026-08-23 / Lunatic Craft 0.1.6
 
 - Added Chicken Chunks 1.20.1-2.10.0.100 with its default limits: 400 chunks per loader and 5000 total chunks per player; the existing CodeChickenLib dependency was retained
