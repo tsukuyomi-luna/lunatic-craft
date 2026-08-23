@@ -1,12 +1,16 @@
 # MOD一覧
 
-0.1.6時点で231件のmod metadataを管理しています
+0.1.7時点で238件のmodと4件のTaCZ gun pack metadataを管理しています
 
-| Mod | Side |
+| Mod / Gun Pack | Side |
 |---|---|
 | [TaCZ] Endless Ammo | `both` |
 | [TaCZ] IronsArms - Iron's Spells 'n Spellbooks & Timeless and Classics Zero | `both` |
 | [TaCZ] Timeless and Classics Zero Guns | `both` |
+| [TaCZ]Applied Armorer | `both` |
+| [TaCZ]Create Armorer | `both` |
+| [TaCZ]Cyber Armorer | `both` |
+| [TaCZ]Immersive Armorer | `both` |
 | [Tacz]Maxstuff | `both` |
 | Ad Astra | `both` |
 | AE2 MEGA Things | `both` |
@@ -28,6 +32,7 @@
 | Ars Nouveau | `both` |
 | Athena | `both` |
 | BadOptimizations | `client` |
+| BaguetteLib | `both` |
 | Bagus Lib | `both` |
 | Balm | `both` |
 | Better Advancements | `client` |
@@ -50,14 +55,17 @@
 | Chipped | `both` |
 | Chunky (Forge/NeoForge) | `both` |
 | Cloth Config API (Fabric/Forge/NeoForge) | `both` |
+| Clumps | `both` |
 | CodeChicken Lib 1.8.+ | `both` |
 | Common Capabilities | `both` |
 | Compact Machines | `both` |
 | Configured | `both` |
 | Construction Wand | `both` |
 | Controlling | `client` |
+| Cooking for Blockheads | `both` |
 | CoroUtil | `both` |
 | Corpse | `both` |
+| Corpse x Curios API Compat | `both` |
 | Cosmetic Armor Reworked | `both` |
 | Crafting Tweaks | `both` |
 | Create | `both` |
@@ -127,6 +135,7 @@
 | Iron's Spells 'n Spellbooks | `both` |
 | Jade Addons (Neo/Forge) | `both` |
 | Jade 🔍 | `both` |
+| Just Another Void Dimension | `both` |
 | Just Enough Items (JEI) | `both` |
 | Just Enough Resources (JER) | `client` |
 | Kotlin for Forge | `both` |
@@ -197,6 +206,7 @@
 | Searchables | `client` |
 | Simple Backups | `both` |
 | Skin Layers 3D | `client` |
+| SlashBlade Japanese Addon Pack | `both` |
 | SlashBlade: Resharped | `both` |
 | SmartBrainLib (Forge/Fabric/Quilt) | `both` |
 | Smooth Boot (Reloaded) | `both` |
@@ -223,6 +233,7 @@
 | TofuCraftReload | `both` |
 | Torchmaster | `both` |
 | Trash Cans | `both` |
+| Trenzalore | `both` |
 | Waystones | `both` |
 | What Are They Up To (Watut) | `both` |
 | YetAnotherConfigLib | `both` |

@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.7 - 2026-08-23
+
+- Cooking for Blockheads 16.0.15、Clumps 12.0.0.4、Corpse x Curios API Compat 3.1.3を追加
+- TaCZ gun packとしてCyber Armorer 1.1.5、Create Armorer 1.2.0.1、Applied Armorer 1.1.4.1、Immersive Armorer 1.2.1を追加
+- SlashBlade Japanese Addon Pack 1.2.16を追加
+- Just Another Void Dimension 5.0.1を追加
+- 必須依存のBaguetteLib 1.1.6とTrenzalore 3.3.10を追加
+
 ## 0.1.6 - 2026-08-23
 
 - Chicken Chunks 1.20.1-2.10.0.100をデフォルト制限のまま追加

@@ -144,6 +144,11 @@ hash = "fb46ea6fed057190d17bd20f1e5ea835e1691b629f0d505efdc2279d55090a42"
 metafile = true
 
 [[files]]
+file = "mods/baguettelib.pw.toml"
+hash = "724fe40135f0ed7f2614cd14116706686df7b092052af048dfbd109dad0c6863"
+metafile = true
+
+[[files]]
 file = "mods/bagus-lib.pw.toml"
 hash = "6a8dfd9b41e82e51516ce19fcff75a866c935b1e3cb672e91fdc65949bb2e8c1"
 metafile = true
@@ -258,6 +263,11 @@ hash = "96204145e12506e0625d8b9bfa05aad54e9a62fd511bae39f0d57fcb5e39f4cc"
 metafile = true
 
 [[files]]
+file = "mods/clumps.pw.toml"
+hash = "e3173aaa4e9078ad7ace2b9ef43ce15ce9919c0b566d8830cea87264f92b3a6a"
+metafile = true
+
+[[files]]
 file = "mods/codechicken-lib-1-8.pw.toml"
 hash = "a81fc8be889dfe5fc3c04cc158868f5afc33b30e538699089d084fecda9d1b04"
 metafile = true
@@ -288,8 +298,18 @@ hash = "cf8c5f2a139a2571d0d4b8be2b7463255cca721ae4a5741ec71595b7ab530e71"
 metafile = true
 
 [[files]]
+file = "mods/cooking-for-blockheads.pw.toml"
+hash = "919eac641320df56ffaad0132877cb67bd8b942ee23eeb0f137993c8df18b952"
+metafile = true
+
+[[files]]
 file = "mods/coroutil.pw.toml"
 hash = "9f2bb57e05bad305f03c25c275c6d11e952835a41b2da68dba10a0bd1f3f6261"
+metafile = true
+
+[[files]]
+file = "mods/corpse-x-curios-api-compat.pw.toml"
+hash = "b82ff450c67ce4ccb0b6960fe020971553513a7e8a03a8b818d4dcf7d43792db"
 metafile = true
 
 [[files]]
@@ -648,6 +668,11 @@ hash = "a2277a000bcab08a8e0939dae7c8ef3b1db5327e2fa7bd37919e4e2f1b3c174d"
 metafile = true
 
 [[files]]
+file = "mods/javd.pw.toml"
+hash = "3452c3d4cc9cb17ae96759c799857c742c48e2e53b9b7dd38c190c8b804b95eb"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
 hash = "29b62d42548542296d9932bcbb8a93ffba0b75b7cc859a67e596aeb1e048ace2"
 metafile = true
@@ -1003,6 +1028,11 @@ hash = "779cc89e86506759e73562cb77fb7136e5af6b7081f9d265588e3fa6b62e2052"
 metafile = true
 
 [[files]]
+file = "mods/sjap.pw.toml"
+hash = "09b40d51eb708371754d62207e3952f39efdd6ed25b3c63a0158f7d83bbb70fb"
+metafile = true
+
+[[files]]
 file = "mods/skin-layers-3d.pw.toml"
 hash = "64b6c95aa49565d14865e84b3460773f329c7344b106c15c32f7820c4592120b"
 metafile = true
@@ -1148,6 +1178,11 @@ hash = "9a9a23cd8a50da875fbcf2010d2ae041dfca0784b9fbb92747fb95f9a2a9f015"
 metafile = true
 
 [[files]]
+file = "mods/trenzalore.pw.toml"
+hash = "c66abcf408ad2d6ffe3fe7b2db9fc08ec2540896011047a58394d467669eef9c"
+metafile = true
+
+[[files]]
 file = "mods/waystones.pw.toml"
 hash = "5ab6f2a4a50bd53506496d3da0c2c09d5a3ca363c3ebc7ca8641ecd3f7104365"
 metafile = true
@@ -1219,3 +1254,23 @@ metafile = true
 [[files]]
 file = "server-icon.png"
 hash = "eef1c82e786a090342c8be5d112645b0c4dea8e2f6d47dc6ac5f2594217406fa"
+
+[[files]]
+file = "tacz/tacz-applied-armorer-koei.pw.toml"
+hash = "1db49fbfbecad35b4471c5d18e26cb7ef7acdf40bab5d3f97d716068171fd76f"
+metafile = true
+
+[[files]]
+file = "tacz/tacz-create-armorer-koei.pw.toml"
+hash = "e2c1388b12038aa3de9319d7443af7539736331731552f2ef92177764321123d"
+metafile = true
+
+[[files]]
+file = "tacz/tacz-cyber-armorer.pw.toml"
+hash = "0f270ba22ef42b34019670c9063a266dd3824a5dec1cd7095bc34a18c83fadf4"
+metafile = true
+
+[[files]]
+file = "tacz/tacz-immersive-armorer-koei.pw.toml"
+hash = "9526fcee54ef71a7bdfc239275bf0a4829a45e8c0b473d7399a0f76a56fc8eec"
+metafile = true
