@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.8 - 2026-08-29
+
+- Baubley Heart Canisters 1.2.0とL2 Artifacts 2.4.28を追加
+- L2 Artifactsの必須依存としてAttributeFix 21.0.5を追加
+- Curiosのring slotを6、charm slotを4へ固定
+- Spice of Lifeの節目を5種類ごとのまま最大1000ハートまで拡張し、全食料を満腹時にも食べられるよう変更
+- Apotheosis bossの出現通知範囲を既定の96 blockへ戻し、出現SEの音量を0へ変更
+
 ## 0.1.7 - 2026-08-23
 
 - Cooking for Blockheads 16.0.15、Clumps 12.0.0.4、Corpse x Curios API Compat 3.1.3を追加

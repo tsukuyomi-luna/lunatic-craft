@@ -1,6 +1,6 @@
 # MOD一覧
 
-0.1.7時点で238件のmodと4件のTaCZ gun pack metadataを管理しています
+0.1.8時点で241件のmodと4件のTaCZ gun pack metadataを管理しています
 
 | Mod / Gun Pack | Side |
 |---|---|
@@ -34,7 +34,9 @@
 | BadOptimizations | `client` |
 | BaguetteLib | `both` |
 | Bagus Lib | `both` |
+| AttributeFix | `both` |
 | Balm | `both` |
+| Baubley Heart Canisters | `both` |
 | Better Advancements | `client` |
 | Better P2P | `both` |
 | BetterF3 | `client` |
@@ -140,6 +142,7 @@
 | Just Enough Resources (JER) | `client` |
 | Kotlin for Forge | `both` |
 | KubeJS | `both` |
+| L2 Artifacts | `both` |
 | L2 Complements | `both` |
 | L2 Hostility | `both` |
 | L2 Library | `both` |

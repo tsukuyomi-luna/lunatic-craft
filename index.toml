@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/apotheosis/adventure.cfg"
+hash = "6a0e78d4971ce766f0860c1c147689fe9ca7f03cc3cad90a4d449ae25779d37e"
+
+[[files]]
 file = "config/curios-common.toml"
 hash = "35a6c169c47754ebbfa3783dddd4fb5be0c508157ca16c79d843d162a7a42c95"
 
@@ -25,8 +29,20 @@ file = "config/quark-common.toml"
 hash = "f75acf58fe79a98e20bb7a9d66b868cc0381142b4cce4e0eca8804e6527dd440"
 
 [[files]]
+file = "defaultconfigs/solcarrot-server.toml"
+hash = "41b1ddc2dd10a6af1a4659ff75950458c1c0c96dcaa040a240c7dfa761a19dca"
+
+[[files]]
 file = "kubejs/data/hyperdaimc/recipes/hyper/vrx.json"
 hash = "39f0d877bab2f56dc9cf0530565043a0e0b8e8d447891fa9e20d5501ffd25a63"
+
+[[files]]
+file = "kubejs/data/lunatic_craft/curios/slots/charm.json"
+hash = "ff4d529dc4937d6d31d22620849c119cb26d41f128e949570ff422e65872cd20"
+
+[[files]]
+file = "kubejs/data/lunatic_craft/curios/slots/ring.json"
+hash = "f167fa6ec378d13f7064acfdc5ec6b469753096e78203425edb6368c41a3fc81"
 
 [[files]]
 file = "kubejs/data/mekanism/recipes/crushing/venus_sandstone_to_venus_sand.json"
@@ -47,6 +63,10 @@ hash = "4c788b1a85441b0d2815797a0d1dadacddf8bdecf41d968c6371c57f70f35fec"
 [[files]]
 file = "kubejs/server_scripts/endgame_progression.js"
 hash = "2ea46d9c11b84259e010f7f411b7916f949d14e49dfb80d8a2bdcb9410012c35"
+
+[[files]]
+file = "kubejs/startup_scripts/always_edible.js"
+hash = "e71a1fdbd947b78770dc75dcd94caf8f99fee394400f077ced64b769d673be75"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
@@ -139,6 +159,11 @@ hash = "9638d8a308563842fd989970919a51f37ed1bcc82372bff47fc5a5c2e6de738e"
 metafile = true
 
 [[files]]
+file = "mods/attributefix.pw.toml"
+hash = "828d571a91296e2ee3be1ec509619ea01f6a61a03958461fbe543bd377daa194"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "fb46ea6fed057190d17bd20f1e5ea835e1691b629f0d505efdc2279d55090a42"
 metafile = true
@@ -156,6 +181,11 @@ metafile = true
 [[files]]
 file = "mods/balm.pw.toml"
 hash = "ddff810b39bb8873325aa34230c2a174073ad9bbf002e04a66835735550a1b7b"
+metafile = true
+
+[[files]]
+file = "mods/baubley-heart-canisters.pw.toml"
+hash = "1466071bbbf302a72ae487c84b7e7bb1b11648435f06c911dbded3dcf0592b63"
 metafile = true
 
 [[files]]
@@ -695,6 +725,11 @@ metafile = true
 [[files]]
 file = "mods/kubejs.pw.toml"
 hash = "ed086cdfde6ba4bb175468a76f3df3b9517aea3fe95b09bed0f1fa70f7caeb6a"
+metafile = true
+
+[[files]]
+file = "mods/l2-artifacts.pw.toml"
+hash = "364843204d7ceb44e27d4c7873a09e102788f48725b483b67c520dcac465c186"
 metafile = true
 
 [[files]]
