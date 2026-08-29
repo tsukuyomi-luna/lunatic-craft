@@ -1,5 +1,19 @@
 # Validation
 
+## 2026-08-29 / Lunatic Craft 0.1.8
+
+- Added Baubley Heart Canisters 1.2.0 and L2 Artifacts 2.4.28; L2 Artifacts added its required AttributeFix 21.0.5 dependency
+- Set Curios ring slots to six and charm slots to four through replace-mode slot data files
+- Extended Spice of Life milestones every five foods through 2475 unique foods, preserving +2 hearts per milestone for a configured maximum of 1000 hearts
+- Added a KubeJS startup modification that preserves existing food properties while making every statically registered food always edible
+- Restored Apotheosis boss announcement range to its 96-block default and set the client-side announcement volume to zero
+- Refreshed the packwiz index, verified 241 mod and four TaCZ gun-pack metadata entries with no duplicate external project IDs, exported the CurseForge client archive, and passed a complete ZIP integrity test
+- Created and completed a 898.8 MB pre-update production backup before synchronization
+- The first production attempt exposed unsupported KubeJS property-assignment syntax; replacing it with the installed build's explicit `getFoodProperties()` / `setFoodProperties()` methods removed all KubeJS startup errors
+- Production loaded all three added JARs, kept the requested Spice of Life and Apotheosis values after Forge config validation, reached `Done (5.819s)`, remained active on ports 25565 and 25575, answered RCON, and restarted Discord Integration
+- Production currently uses a temporary systemd drop-in pinned to commit `21edd31` because the installer briefly received the previous `main` index after the fix was pushed; remove or advance the pin during the next deployment
+- Client pack synchronization, multiplayer login, Curios GUI slot counts, actual full-hunger eating, Heart Canister and L2 Artifact item behavior, and silent Apotheosis announcements still require interactive validation
+
 ## 2026-08-23 / Lunatic Craft 0.1.7
 
 - Added Cooking for Blockheads 16.0.15, Clumps 12.0.0.4, Corpse x Curios API Compat 3.1.3, SlashBlade Japanese Addon Pack 1.2.16, and Just Another Void Dimension 5.0.1
