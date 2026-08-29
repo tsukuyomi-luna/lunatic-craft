@@ -66,7 +66,7 @@ hash = "2ea46d9c11b84259e010f7f411b7916f949d14e49dfb80d8a2bdcb9410012c35"
 
 [[files]]
 file = "kubejs/startup_scripts/always_edible.js"
-hash = "e71a1fdbd947b78770dc75dcd94caf8f99fee394400f077ced64b769d673be75"
+hash = "cf1acfc5fffbc97c58a0f2d3ba23060b7a2fcb44aeb1c3b04a0c41b2b759c3b3"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
