@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.9 - 2026-08-30
+
+- Tinkers Integrations and Tweaks 2.0.25.19を追加し、Botania、Ars Nouveau、Create、Mekanism、Ad Astra、Deeper and Darker等とTinkers' Constructの連携を拡張
+- Twilight Construct 1.0.7を追加し、Fiery、Knightmetal、Steeleaf、Ironwood、Phantom、Naga、Carminite、Red ThreadをTiC素材化
+- Enigmatic LegacyのEtheriumを独自のTier 4 TiC素材として追加し、軽量性と火炎・溶岩耐性を付与
+
 ## 0.1.8 - 2026-08-29
 
 - Baubley Heart Canisters 1.2.0とL2 Artifacts 2.4.28を追加

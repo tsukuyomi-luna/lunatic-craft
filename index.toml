@@ -33,6 +33,18 @@ file = "defaultconfigs/solcarrot-server.toml"
 hash = "41b1ddc2dd10a6af1a4659ff75950458c1c0c96dcaa040a240c7dfa761a19dca"
 
 [[files]]
+file = "kubejs/assets/lunatic_craft/lang/en_us.json"
+hash = "b5e72a6cb768d4c7ffbfacbf4163cd26fbfd578c71daf81c1c2e4775ff2e06a3"
+
+[[files]]
+file = "kubejs/assets/lunatic_craft/lang/ja_jp.json"
+hash = "0c7fb1e1f7b3754dbed4028b1693836125bc3224bea06c920f93d66c43bbe110"
+
+[[files]]
+file = "kubejs/assets/lunatic_craft/tinkering/materials/etherium.json"
+hash = "3d92b85ecc1c5c41a0306040022a1dacc14acdb25ef97e1744fe831480092c8d"
+
+[[files]]
 file = "kubejs/data/hyperdaimc/recipes/hyper/vrx.json"
 hash = "39f0d877bab2f56dc9cf0530565043a0e0b8e8d447891fa9e20d5501ffd25a63"
 
@@ -43,6 +55,26 @@ hash = "ff4d529dc4937d6d31d22620849c119cb26d41f128e949570ff422e65872cd20"
 [[files]]
 file = "kubejs/data/lunatic_craft/curios/slots/ring.json"
 hash = "f167fa6ec378d13f7064acfdc5ec6b469753096e78203425edb6368c41a3fc81"
+
+[[files]]
+file = "kubejs/data/lunatic_craft/recipes/tools/materials/etherium/block.json"
+hash = "656099c499f54348c41eb9990747e60cdeb8f70ad1c1df8dcfedd72069d9843b"
+
+[[files]]
+file = "kubejs/data/lunatic_craft/recipes/tools/materials/etherium/ingot.json"
+hash = "13c8894449e22132548a21afed7e3d3ef7e61d9178675c8570683fdbde4ebe86"
+
+[[files]]
+file = "kubejs/data/lunatic_craft/tinkering/materials/definition/etherium.json"
+hash = "840f8ee466238968dda2d6ed6b09cc9e70f0f2c2c64ec504744561d98a7618fa"
+
+[[files]]
+file = "kubejs/data/lunatic_craft/tinkering/materials/stats/etherium.json"
+hash = "4f79295925260adea457ee77c553b9ab2c7302c5a04ac29735595a8e56efceb0"
+
+[[files]]
+file = "kubejs/data/lunatic_craft/tinkering/materials/traits/etherium.json"
+hash = "30c664e6689a3f6022a80deb4b1be859995f5fda62fbe3cbe208c3138150b3cb"
 
 [[files]]
 file = "kubejs/data/mekanism/recipes/crushing/venus_sandstone_to_venus_sand.json"
@@ -1158,6 +1190,11 @@ hash = "b4d15c5213b212c0cbefbb5f426ec29a1ac0e051b7f41bd463b5c5a203d8ae8b"
 metafile = true
 
 [[files]]
+file = "mods/tcintegrations.pw.toml"
+hash = "e3b31e046167211249c4ab4b18ff408f332d6e7ad75cb4e792f10308f1432252"
+metafile = true
+
+[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "fde3d3b1607636100e382dce1bba80ab4608ebfa1ef888a37b86bc8c7dcbafe5"
 metafile = true
@@ -1215,6 +1252,11 @@ metafile = true
 [[files]]
 file = "mods/trenzalore.pw.toml"
 hash = "c66abcf408ad2d6ffe3fe7b2db9fc08ec2540896011047a58394d467669eef9c"
+metafile = true
+
+[[files]]
+file = "mods/twilight-construct.pw.toml"
+hash = "4e110c958d0a02255c687f3802955002bc2e07d2a1a76ca4309f0cc4a3f69a02"
 metafile = true
 
 [[files]]

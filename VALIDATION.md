@@ -1,5 +1,13 @@
 # Validation
 
+## 2026-08-30 / Lunatic Craft 0.1.9
+
+- Added Tinkers Integrations and Tweaks 2.0.25.19 for Botania, Ars Nouveau, Create, Mekanism, Ad Astra, Deeper and Darker, Twilight Forest, and other installed-mod integrations
+- Added Twilight Construct 1.0.7 with eight Twilight Forest tool and armor materials
+- Added a data-driven Tier 4 Etherium material backed by Enigmatic Legacy ingots and blocks, with generated purple metal textures plus Worldbound and Lightweight traits
+- Refreshed the packwiz index and validated all JSON resources locally
+- Dedicated-server loading, recipe/material registration, generated client textures, and multiplayer login are not yet validated
+
 ## 2026-08-29 / Lunatic Craft 0.1.8
 
 - Added Baubley Heart Canisters 1.2.0 and L2 Artifacts 2.4.28; L2 Artifacts added its required AttributeFix 21.0.5 dependency

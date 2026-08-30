@@ -1,6 +1,6 @@
 # MOD一覧
 
-0.1.8時点で241件のmodと4件のTaCZ gun pack metadataを管理しています
+0.1.9時点で243件のmodと4件のTaCZ gun pack metadataを管理しています
 
 | Mod / Gun Pack | Side |
 |---|---|
@@ -228,9 +228,11 @@
 | TaCZ Tweaks | `both` |
 | TerraBlender (Forge) | `both` |
 | The Twilight Forest | `both` |
+| Twilight Construct | `both` |
 | TiCEX - Tinkers Construct EX | `both` |
 | Time in a Bottle | `both` |
 | Tinkers Construct | `both` |
+| Tinkers Integrations and Tweaks | `both` |
 | Titanium | `both` |
 | Toast Control | `client` |
 | TofuCraftReload | `both` |
