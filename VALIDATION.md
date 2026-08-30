@@ -5,13 +5,14 @@
 - Added Tinkers Integrations and Tweaks 2.0.25.19 for Botania, Ars Nouveau, Create, Mekanism, Ad Astra, Deeper and Darker, Twilight Forest, and other installed-mod integrations
 - Added Twilight Construct 1.0.7 with eight Twilight Forest tool and armor materials
 - Added a data-driven Tier 4 Etherium material backed by Enigmatic Legacy ingots and blocks, with generated purple metal textures plus Worldbound and Lightweight traits
+- Corrected the authoritative Curios common configuration from ring 4 / charm 2 to ring 6 / charm 4 and removed the ineffective duplicate slot data files; production currently reports ring 4 / charm 3 for shun before this update is restarted
 - Refreshed the packwiz index and validated all JSON resources locally
 - Dedicated-server loading, recipe/material registration, generated client textures, and multiplayer login are not yet validated
 
 ## 2026-08-29 / Lunatic Craft 0.1.8
 
 - Added Baubley Heart Canisters 1.2.0 and L2 Artifacts 2.4.28; L2 Artifacts added its required AttributeFix 21.0.5 dependency
-- Set Curios ring slots to six and charm slots to four through replace-mode slot data files
+- Added replace-mode Curios slot data intended to set ring slots to six and charm slots to four; the older common configuration remained authoritative until corrected in 0.1.9
 - Extended Spice of Life milestones every five foods through 2475 unique foods, preserving +2 hearts per milestone for a configured maximum of 1000 hearts
 - Added a KubeJS startup modification that preserves existing food properties while making every statically registered food always edible
 - Restored Apotheosis boss announcement range to its 96-block default and set the client-side announcement volume to zero

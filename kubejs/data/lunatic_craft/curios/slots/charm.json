@@ -1,8 +1,0 @@
-{
-  "replace": true,
-  "size": 4,
-  "operation": "SET",
-  "order": 200,
-  "icon": "curios:slot/empty_charm_slot",
-  "validators": ["curios:tag"]
-}

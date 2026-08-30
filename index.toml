@@ -6,7 +6,7 @@ hash = "6a0e78d4971ce766f0860c1c147689fe9ca7f03cc3cad90a4d449ae25779d37e"
 
 [[files]]
 file = "config/curios-common.toml"
-hash = "35a6c169c47754ebbfa3783dddd4fb5be0c508157ca16c79d843d162a7a42c95"
+hash = "9fd0d3815bb351949a1b9537d02d1420ad9ffa33dee0b39b998de2fda25351b3"
 
 [[files]]
 file = "config/enhancedai/common.toml"
@@ -47,14 +47,6 @@ hash = "3d92b85ecc1c5c41a0306040022a1dacc14acdb25ef97e1744fe831480092c8d"
 [[files]]
 file = "kubejs/data/hyperdaimc/recipes/hyper/vrx.json"
 hash = "39f0d877bab2f56dc9cf0530565043a0e0b8e8d447891fa9e20d5501ffd25a63"
-
-[[files]]
-file = "kubejs/data/lunatic_craft/curios/slots/charm.json"
-hash = "ff4d529dc4937d6d31d22620849c119cb26d41f128e949570ff422e65872cd20"
-
-[[files]]
-file = "kubejs/data/lunatic_craft/curios/slots/ring.json"
-hash = "f167fa6ec378d13f7064acfdc5ec6b469753096e78203425edb6368c41a3fc81"
 
 [[files]]
 file = "kubejs/data/lunatic_craft/recipes/tools/materials/etherium/block.json"
