@@ -1,5 +1,16 @@
 # Validation
 
+## 2026-09-02 / Lunatic Craft 0.1.10
+
+- Added Tinkers' Innovation 3.0.0, Tinkers' Advanced-Core 3.0.0-beta.5, Tinkers' Advanced-Materials 3.0.0-beta.3, Tinkers' Thinking 0.1.6.6.3, Sakura Tinker, and Apotheotic Additions 2.2.2 while retaining Tinkers Integrations and Tweaks
+- Added EtST Lib 3.0.0-beta.20 as the required dependency shared by Tinkers' Advanced and Sakura Tinker
+- Refreshed the packwiz index with 250 mod and four TaCZ gun-pack metadata entries; the CurseForge client manifest contains 253 unique project IDs and passes complete ZIP integrity testing
+- Saved the production world and created a checksum-verified 1.2 GB pre-0.1.10 world/config backup before synchronization
+- Sakura Tinker 1.4.2.3 failed dedicated-server initialization by loading `RenderStateShard$EmptyTextureStateShard`; pinned 1.4.1, whose upstream changelog identifies a server fix
+- Production synchronized the pinned files, loaded all seven added JARs, reached `Done (5.465s)`, remained active on ports 25565 and 25575, answered RCON, and restarted Discord Integration
+- Startup remains usable but reports non-fatal upstream data errors in parts of Sakura Tinker, Tinkers' Advanced-Materials' absent-Thermal advancements, and Apotheotic Additions' TiC affix-loot entries; affected recipes, traits, and loot integrations must not be treated as fully working until checked in game
+- Client pack synchronization, multiplayer login, JEI visibility, tool models, material stats, modifiers, recipes, and Apotheosis affix behavior still require interactive validation
+
 ## 2026-08-30 / Lunatic Craft 0.1.9
 
 - Added Tinkers Integrations and Tweaks 2.0.25.19 for Botania, Ars Nouveau, Create, Mekanism, Ad Astra, Deeper and Darker, Twilight Forest, and other installed-mod integrations
