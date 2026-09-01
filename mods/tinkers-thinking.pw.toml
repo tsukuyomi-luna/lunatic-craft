@@ -1,0 +1,13 @@
+name = "Tinkers' Thinking"
+filename = "Tinkers-Thinking-0.1.6.6.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "798a1ecf71cdf7f649d1946375b6da23bf4d605b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8067373
+project-id = 850772

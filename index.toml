@@ -133,6 +133,11 @@ hash = "c281ef574be46e4df3f7ed04b0a4b5f6d1b2a836b7d1d94c4a30be9c85d3adcb"
 metafile = true
 
 [[files]]
+file = "mods/apotheotic-additions.pw.toml"
+hash = "0fad8186fbeb910463e8b34629543c8d15c68baaa558b1501ccdc3caf15abeed"
+metafile = true
+
+[[files]]
 file = "mods/apothic-attributes.pw.toml"
 hash = "5f3996f32795f87086cd2e34ac1d7cc281411fe0c8799cb589706680107171ee"
 metafile = true
@@ -489,6 +494,11 @@ metafile = true
 [[files]]
 file = "mods/enigmatic-legacy.pw.toml"
 hash = "76700218b9a2e6ca8854512ca7c90511c756ae7f76a93fa81518d9d0e81ef084"
+metafile = true
+
+[[files]]
+file = "mods/etst-lib.pw.toml"
+hash = "7d020c6808b33ccbffb4aad88a0d524bd5bdcbc21e9d54f2ca64333ae5410ec7"
 metafile = true
 
 [[files]]
@@ -1067,6 +1077,11 @@ hash = "ca4411ac6d8a9a892948bb63cd0ba52ae5523ca5e257632d6ae8c933b660c5ee"
 metafile = true
 
 [[files]]
+file = "mods/sakura-tinker.pw.toml"
+hash = "5578469e60364ff7b5db7df66d5dadd6616dadd28616cc6fda7c0c7b80ef4fde"
+metafile = true
+
+[[files]]
 file = "mods/sakura.pw.toml"
 hash = "3dbcb102e202ceade4759c778e40fbd0bb18e3ff52d7fa6b87f9e3e787307a9c"
 metafile = true
@@ -1212,8 +1227,28 @@ hash = "733b8967d6f263e9cc7ca2f001067be6ed8e21c214d73afb4e7fb418fa3e4364"
 metafile = true
 
 [[files]]
+file = "mods/tinkers-advanced-core.pw.toml"
+hash = "ff8fad61846723f3a2376b3b2f5b398f419a292feece4d06e9cb379f7cb8a7ae"
+metafile = true
+
+[[files]]
+file = "mods/tinkers-advanced-materials.pw.toml"
+hash = "c64e531374caf6a2f4ea9c8c13ab71ceeeeb6d2b5b3ba35bb7a29132caf06754"
+metafile = true
+
+[[files]]
 file = "mods/tinkers-construct.pw.toml"
 hash = "74a64acbd2275c16e47fb17e74bcd431779674cefa1f54f67f15b4d9b955aec7"
+metafile = true
+
+[[files]]
+file = "mods/tinkers-innovation.pw.toml"
+hash = "f0d8d5babf5a2c4011253b4c48bf1fc4820c2c2547e4a3aeb65610b22b834cfb"
+metafile = true
+
+[[files]]
+file = "mods/tinkers-thinking.pw.toml"
+hash = "323b1d256f8d9ea3ece7c20d8e62f1824b436e250f9800ab537e1f61262cf42d"
 metafile = true
 
 [[files]]

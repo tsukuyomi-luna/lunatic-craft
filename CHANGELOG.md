@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.10 - 2026-09-02
+
+- Tinkers' Innovation 3.0.0、Tinkers' Thinking 0.1.6.6.3、Sakura Tinker 1.4.2.3を追加
+- Tinkers' Advanced-Core 3.0.0-beta.5とTinkers' Advanced-Materials 3.0.0-beta.3を追加し、EtST Lib 3.0.0-beta.20を必須依存として追加
+- Apotheotic Additions 2.2.2を追加
+- 既存のTinkers Integrations and Tweaksは残し、各addonを併用
+
 ## 0.1.9 - 2026-08-30
 
 - Tinkers Integrations and Tweaks 2.0.25.19を追加し、Botania、Ars Nouveau、Create、Mekanism、Ad Astra、Deeper and Darker等とTinkers' Constructの連携を拡張

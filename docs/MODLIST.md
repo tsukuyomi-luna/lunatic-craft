@@ -1,6 +1,6 @@
 # MOD一覧
 
-0.1.9時点で243件のmodと4件のTaCZ gun pack metadataを管理しています
+0.1.10時点で250件のmodと4件のTaCZ gun pack metadataを管理しています
 
 | Mod / Gun Pack | Side |
 |---|---|
@@ -21,6 +21,7 @@
 | Animation Overhaul | `client` |
 | Apotheosis | `both` |
 | Apotheosis Modern Ragnarok: Zero | `both` |
+| Apotheotic Additions | `both` |
 | Apothic Attributes | `both` |
 | AppleSkin | `client` |
 | Applied Energistics 2 | `both` |
@@ -31,10 +32,10 @@
 | Ars Creo | `both` |
 | Ars Nouveau | `both` |
 | Athena | `both` |
+| AttributeFix | `both` |
 | BadOptimizations | `client` |
 | BaguetteLib | `both` |
 | Bagus Lib | `both` |
-| AttributeFix | `both` |
 | Balm | `both` |
 | Baubley Heart Canisters | `both` |
 | Better Advancements | `client` |
@@ -92,6 +93,7 @@
 | Enhanced Hordes | `both` |
 | Enigmatic Addons | `both` |
 | Enigmatic Legacy | `both` |
+| EtST Lib | `both` |
 | Explorer's Compass | `both` |
 | Explorify – Dungeons & Structures | `both` |
 | ExtendedAE | `both` |
@@ -206,6 +208,7 @@
 | RFTools Utility | `both` |
 | Rhino | `both` |
 | Sakura | `both` |
+| Sakura Tinker | `both` |
 | Searchables | `client` |
 | Simple Backups | `both` |
 | Skin Layers 3D | `client` |
@@ -228,17 +231,21 @@
 | TaCZ Tweaks | `both` |
 | TerraBlender (Forge) | `both` |
 | The Twilight Forest | `both` |
-| Twilight Construct | `both` |
 | TiCEX - Tinkers Construct EX | `both` |
 | Time in a Bottle | `both` |
 | Tinkers Construct | `both` |
 | Tinkers Integrations and Tweaks | `both` |
+| Tinkers' Advanced-Core | `both` |
+| Tinkers' Advanced-Materials | `both` |
+| Tinkers' Innovation | `both` |
+| Tinkers' Thinking | `both` |
 | Titanium | `both` |
 | Toast Control | `client` |
 | TofuCraftReload | `both` |
 | Torchmaster | `both` |
 | Trash Cans | `both` |
 | Trenzalore | `both` |
+| Twilight Construct | `both` |
 | Waystones | `both` |
 | What Are They Up To (Watut) | `both` |
 | YetAnotherConfigLib | `both` |
