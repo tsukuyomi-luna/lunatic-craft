@@ -7,7 +7,10 @@
 - Added a shaped Esoteric Reforging Table recipe that upgrades the Ancient Reforging Table with one Esoteric, two Heirloom, and three Artifact materials
 - Refreshed the packwiz index with 252 mod and four TaCZ gun-pack metadata entries; all JSON and TOML resources parse, external project IDs are unique, and the KubeJS recipe script passes JavaScript syntax checking
 - Exported the CurseForge client archive with 255 unique project IDs and passed complete ZIP integrity checks for both the CurseForge archive and Prism starter archive
-- Dedicated-server loading, recipe registration, client synchronization, Stylish Effects rendering, and actual reforging behavior still require runtime validation
+- Saved the world with no players online and created a checksum-verified 1.28 GB pre-0.1.11 world/config/KubeJS backup before synchronization
+- Production removed Animation Overhaul, excluded client-only Stylish Effects, installed Ancient Reforging and Esoteric Reforging, loaded both mod IDs, and loaded the KubeJS server recipe script with zero errors or warnings
+- Production reached `Done (5.767s)`, remained active on ports 25565 and 25575, answered RCON, and accepted the custom recipe ID; existing TiCEX/SlashBlade and optional-integration warnings predate this release
+- Client synchronization, Stylish Effects rendering, SlashBlade animation behavior, JEI recipe visibility, and actual Esoteric reforging still require interactive validation
 
 ## 2026-09-02 / Lunatic Craft 0.1.10
 
