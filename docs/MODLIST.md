@@ -1,6 +1,6 @@
 # MOD一覧
 
-0.1.10時点で250件のmodと4件のTaCZ gun pack metadataを管理しています
+0.1.11時点で252件のmodと4件のTaCZ gun pack metadataを管理しています
 
 | Mod / Gun Pack | Side |
 |---|---|
@@ -17,8 +17,8 @@
 | AE2 Things [Forge] | `both` |
 | All Japanese Translate | `both` |
 | Amendments | `both` |
+| Ancient Reforging | `both` |
 | Angel Block Renewed | `both` |
-| Animation Overhaul | `client` |
 | Apotheosis | `both` |
 | Apotheosis Modern Ragnarok: Zero | `both` |
 | Apotheotic Additions | `both` |
@@ -93,6 +93,7 @@
 | Enhanced Hordes | `both` |
 | Enigmatic Addons | `both` |
 | Enigmatic Legacy | `both` |
+| Esoteric Reforging | `both` |
 | EtST Lib | `both` |
 | Explorer's Compass | `both` |
 | Explorify – Dungeons & Structures | `both` |
@@ -225,6 +226,7 @@
 | Stellarity | `both` |
 | Storage Drawers | `both` |
 | StorageBox mod | `both` |
+| Stylish Effects | `client` |
 | SuperMartijn642's Config Lib | `both` |
 | SuperMartijn642's Core Lib | `both` |
 | Supplementaries | `both` |

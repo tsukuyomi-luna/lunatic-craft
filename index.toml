@@ -86,7 +86,7 @@ hash = "4c788b1a85441b0d2815797a0d1dadacddf8bdecf41d968c6371c57f70f35fec"
 
 [[files]]
 file = "kubejs/server_scripts/endgame_progression.js"
-hash = "2ea46d9c11b84259e010f7f411b7916f949d14e49dfb80d8a2bdcb9410012c35"
+hash = "1c3d6ff8d088ef4d1a99598a90771c971ab083ea3703a128e18f8e157eefc252"
 
 [[files]]
 file = "kubejs/startup_scripts/always_edible.js"
@@ -113,13 +113,13 @@ hash = "420f60e542e731334fc62fc16a9945a60dfa8f6c5a647c71b2cf9217d50ea7f5"
 metafile = true
 
 [[files]]
-file = "mods/angel-block-renewed.pw.toml"
-hash = "91fdcb5154a0582504cd8958babbc4176c6d0d604c59cd58f7e59e7767b1ea51"
+file = "mods/ancient-reforging.pw.toml"
+hash = "673d248e970b6c7d729b49905675a7462d9acfb8188f249af545306e02199bde"
 metafile = true
 
 [[files]]
-file = "mods/animationoverhaul.pw.toml"
-hash = "1ea7cf3b197d3ba6601a34a18ec7d5f769611920f0c93fd015127908599197dc"
+file = "mods/angel-block-renewed.pw.toml"
+hash = "91fdcb5154a0582504cd8958babbc4176c6d0d604c59cd58f7e59e7767b1ea51"
 metafile = true
 
 [[files]]
@@ -494,6 +494,11 @@ metafile = true
 [[files]]
 file = "mods/enigmatic-legacy.pw.toml"
 hash = "76700218b9a2e6ca8854512ca7c90511c756ae7f76a93fa81518d9d0e81ef084"
+metafile = true
+
+[[files]]
+file = "mods/esoteric-reforging-forge.pw.toml"
+hash = "ce2bc8fbb6ebbc3571ed0ac531b473da80fb9feb8742e5ff5dd7d7271c0ed1d5"
 metafile = true
 
 [[files]]
@@ -1169,6 +1174,11 @@ metafile = true
 [[files]]
 file = "mods/storagebox-mod.pw.toml"
 hash = "3065ad3eb2861cd96ca59cb7acd5a5023705b297b4ddd4b40618351a9941fdff"
+metafile = true
+
+[[files]]
+file = "mods/stylish-effects.pw.toml"
+hash = "74019fff1f04691dd4c7bfe1e6800a3762df8a204c2779550d0e1875051f833e"
 metafile = true
 
 [[files]]

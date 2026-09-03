@@ -1,5 +1,14 @@
 # Validation
 
+## 2026-09-03 / Lunatic Craft 0.1.11
+
+- Removed client-only Animation Overhaul and added client-only Stylish Effects 8.0.4
+- Added Esoteric Reforging 1.0.1 and its required Ancient Reforging 1.3 dependency alongside the existing Apotheosis and Apotheotic Additions versions
+- Added a shaped Esoteric Reforging Table recipe that upgrades the Ancient Reforging Table with one Esoteric, two Heirloom, and three Artifact materials
+- Refreshed the packwiz index with 252 mod and four TaCZ gun-pack metadata entries; all JSON and TOML resources parse, external project IDs are unique, and the KubeJS recipe script passes JavaScript syntax checking
+- Exported the CurseForge client archive with 255 unique project IDs and passed complete ZIP integrity checks for both the CurseForge archive and Prism starter archive
+- Dedicated-server loading, recipe registration, client synchronization, Stylish Effects rendering, and actual reforging behavior still require runtime validation
+
 ## 2026-09-02 / Lunatic Craft 0.1.10
 
 - Added Tinkers' Innovation 3.0.0, Tinkers' Advanced-Core 3.0.0-beta.5, Tinkers' Advanced-Materials 3.0.0-beta.3, Tinkers' Thinking 0.1.6.6.3, Sakura Tinker, and Apotheotic Additions 2.2.2 while retaining Tinkers Integrations and Tweaks

@@ -1,4 +1,18 @@
 ServerEvents.recipes(event => {
+  // Apotheosis: upgrade each reforging table through the added rarity tiers.
+  // This mirrors Ancient Reforging's 1/2/3 material pattern while requiring
+  // the previous table, so Esoteric reforging cannot bypass earlier tiers.
+  event.shaped('esotericreforging:esoteric_reforging_table', [
+    ' E ',
+    'HTH',
+    'AAA'
+  ], {
+    E: 'apotheotic_additions:esoteric_material',
+    H: 'apotheotic_additions:heirloom_material',
+    T: 'ancientreforging:ancient_reforging_table',
+    A: 'apotheotic_additions:artifact_material'
+  }).id('kubejs:esoteric_reforging_table')
+
   // Draconic Evolution: each tier proves progress in another engineering or magic branch.
   event.remove({ id: 'draconicevolution:components/wyvern_core' })
   event.shaped('draconicevolution:wyvern_core', [

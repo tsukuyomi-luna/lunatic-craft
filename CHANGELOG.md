@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.11 - 2026-09-03
+
+- Animation Overhaulを削除し、SlashBlade等の独自animationとの競合要因を除去
+- client向けのStylish Effects 8.0.4を追加
+- Esoteric Reforging 1.0.1と必須依存のAncient Reforging 1.3を追加
+- Esoteric Reforging Tableに、Ancient Reforging TableとArtifact・Heirloom・Esoteric素材を段階的に使うrecipeを追加
+
 ## 0.1.10 - 2026-09-02
 
 - Tinkers' Innovation 3.0.0、Tinkers' Thinking 0.1.6.6.3、Sakura Tinker 1.4.1を追加
