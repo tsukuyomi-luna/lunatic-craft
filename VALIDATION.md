@@ -11,6 +11,7 @@
 - Read-only recipe-manager audit confirmed all 20 new recipe IDs are registered. Live `kubejs list_tag` confirmed bedrock absent from soul-fire bases while soul sand, soul soil, crying obsidian and the other modded bases remain
 - Temporary audit scripts initially hit JS errors, then were corrected, executed successfully, removed, and script-reloaded; final production has only four intended server scripts, loading with zero script errors/warnings
 - An optional KubeJS data export hit three upstream Stellarity loot-table serializer failures; this is not a recipe-registration failure. Actual recipe-manager inspection was used instead
+- Added MGU exposed one new broken beheading recipe: its TiC integration used removed `tconstruct:piglin_head`. Replaced the same recipe ID with `minecraft:piglin_head`, applied the identical script to production preserving ownership/mode, and reloaded data. Recipe failures returned from 30 to the prior baseline of 29; all 21 changed recipe IDs (20 material additions + one MGU fix) were checked after reload
 - Client sync/login, JEI presentation, actual L2 machine crafts/container remainders, Affix compression crafts, MGU gameplay, and Grains of Infinity drops from newly lit normal fires remain interactive checks
 
 ## 2026-09-03 / Lunatic Craft 0.1.11
