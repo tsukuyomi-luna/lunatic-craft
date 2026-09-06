@@ -90,7 +90,7 @@ hash = "165c1c62f4c86741f16a3043d49d1ae8a629f328d72dd91943818fcb697af94b"
 
 [[files]]
 file = "kubejs/server_scripts/compatibility.js"
-hash = "7e358cc4c45785739e78a59e83ca802bfa313297ffd24b597db9a0c6a196e5e2"
+hash = "73ff754a517e8987997bcc5b6d6e70cb36fd1dacf4c13a1622ccc58333c34bfa"
 
 [[files]]
 file = "kubejs/server_scripts/endgame_progression.js"

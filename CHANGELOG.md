@@ -5,7 +5,7 @@
 - 岩盤だけをSoul Fireの土台タグから外し、StellarityとEnder IOのGrains of Infinity生成の競合を修正
 - L2 Complementsの特殊素材12種類へ複数MOD工程の代替レシピを追加（元の入手方法は維持）
 - Apotheosis / Apotheotic AdditionsのAffix素材に、CommonからEsotericまで下位9個→上位1個の圧縮レシピ8件を追加
-- Mob Grinding Utils 1.20.1-1.1.0を追加
+- Mob Grinding Utils 1.20.1-1.1.0を追加し、ピグリン頭の古いTiC item ID参照をバニラのIDへ修正
 
 ## 0.1.11 - 2026-09-03
 
