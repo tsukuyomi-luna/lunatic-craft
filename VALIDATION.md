@@ -5,7 +5,13 @@
 - Node syntax checks and the isolated recipe-event test pass for all 20 new recipes (12 L2 alternatives and eight adjacent 9:1 rarity steps), machine ingredient limits, and removal of bedrock only from the soul-fire base tag
 - Recipe schemas and item IDs checked against installed JAR resources; rarity order checked against Apotheosis / Apotheotic Additions rarity ordinals
 - 253 unique mod projects; all JSON/TOML parse, CurseForge export contains 256 projects and passes ZIP integrity checks
-- Production deployment and interactive crafting checks pending
+- Backed up world/config/defaultconfigs/KubeJS/server properties/packwiz state to a 1.3 GiB archive; verified gzip, required archive entries, and SHA-256 before startup. Server has no local pack.toml/index.toml, so these optional entries were absent; repository commit preserves pack definitions.
+- Production synchronized 0.1.12 from main, loaded Mob Grinding Utils 1.20.1-1.1.0 with its expected SHA-1, and all three new server scripts matched the local SHA-256 values
+- Reached `Done (5.523s)`, stayed active on 25565/25575, and answered RCON
+- Read-only recipe-manager audit confirmed all 20 new recipe IDs are registered. Live `kubejs list_tag` confirmed bedrock absent from soul-fire bases while soul sand, soul soil, crying obsidian and the other modded bases remain
+- Temporary audit scripts initially hit JS errors, then were corrected, executed successfully, removed, and script-reloaded; final production has only four intended server scripts, loading with zero script errors/warnings
+- An optional KubeJS data export hit three upstream Stellarity loot-table serializer failures; this is not a recipe-registration failure. Actual recipe-manager inspection was used instead
+- Client sync/login, JEI presentation, actual L2 machine crafts/container remainders, Affix compression crafts, MGU gameplay, and Grains of Infinity drops from newly lit normal fires remain interactive checks
 
 ## 2026-09-03 / Lunatic Craft 0.1.11
 
