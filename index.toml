@@ -230,6 +230,11 @@ hash = "da42d2a6e6e3f7bd10df625ab23d6ba8a50ecb3545c1c3c6bda4f826caa5d51b"
 metafile = true
 
 [[files]]
+file = "mods/additional-enchanted-miner.pw.toml"
+hash = "737249f918b38c404777870f680c98914c62d119773b6b2d88c2d767f9dea06e"
+metafile = true
+
+[[files]]
 file = "mods/ae2-mega-things.pw.toml"
 hash = "d51a624a969371b36050a8e8a13a65f3ce4ca3bb95735efcdf0f22fea04fd305"
 metafile = true
@@ -611,11 +616,6 @@ metafile = true
 [[files]]
 file = "mods/enhanced-ai.pw.toml"
 hash = "f7cb869f50c28a105214cc06598ee632f950a6eb9c0cd05c13009457841fe36f"
-metafile = true
-
-[[files]]
-file = "mods/enhanced-hordes.pw.toml"
-hash = "af72d77fb4f36572f76cf9941d9ef678e62cc29b75dc9db7ce0d678418919fcf"
 metafile = true
 
 [[files]]
@@ -1226,6 +1226,11 @@ metafile = true
 [[files]]
 file = "mods/sakura.pw.toml"
 hash = "3dbcb102e202ceade4759c778e40fbd0bb18e3ff52d7fa6b87f9e3e787307a9c"
+metafile = true
+
+[[files]]
+file = "mods/scalable-cats-force.pw.toml"
+hash = "ef695ed57ccacb432666fdfa3672131e4d48eb0d84ee88b6bffd59c5f59f46ce"
 metafile = true
 
 [[files]]

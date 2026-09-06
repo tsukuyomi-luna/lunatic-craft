@@ -1,6 +1,6 @@
 # MOD一覧
 
-0.1.11時点で252件のmodと4件のTaCZ gun pack metadataを管理しています
+0.1.14時点で254件のmodと4件のTaCZ gun pack metadataを管理しています
 
 | Mod / Gun Pack | Side |
 |---|---|
@@ -13,6 +13,7 @@
 | [TaCZ]Immersive Armorer | `both` |
 | [Tacz]Maxstuff | `both` |
 | Ad Astra | `both` |
+| Additional Enchanted Miner | `both` |
 | AE2 MEGA Things | `both` |
 | AE2 Things [Forge] | `both` |
 | All Japanese Translate | `both` |
@@ -90,7 +91,6 @@
 | Ender Storage 1.8.+ | `both` |
 | EndingLibrary | `both` |
 | Enhanced AI | `both` |
-| Enhanced Hordes | `both` |
 | Enigmatic Addons | `both` |
 | Enigmatic Legacy | `both` |
 | Esoteric Reforging | `both` |
@@ -166,6 +166,7 @@
 | MES - Moog's End Structures | `both` |
 | MmmMmmMmmMmm (Target Dummy) | `both` |
 | MNS - Moog's Nether Structures | `both` |
+| Mob Grinding Utils | `both` |
 | Modern UI | `client` |
 | ModernFix | `both` |
 | Modonomicon | `both` |
@@ -210,6 +211,7 @@
 | Rhino | `both` |
 | Sakura | `both` |
 | Sakura Tinker | `both` |
+| Scalable Cat's Force | `both` |
 | Searchables | `client` |
 | Simple Backups | `both` |
 | Skin Layers 3D | `client` |

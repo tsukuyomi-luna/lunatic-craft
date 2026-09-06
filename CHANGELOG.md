@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.14 - 2026-09-07
+
+- Additional Enchanted Miner 1201.1.136と必須依存のScalable Cat's Force 3.3.1を追加
+- Enhanced Hordesを削除。その他の敵強化MODと既存レシピは変更しない
+
 ## 0.1.13 - 2026-09-06
 
 - Stellarityの30関数に検索最適化を追加。存在確認だけを1件打ち切り・並べ替えなしにし、定期処理の純粋な条件判定ではtagを先に確認する
