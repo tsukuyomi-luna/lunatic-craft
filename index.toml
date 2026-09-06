@@ -73,6 +73,126 @@ file = "kubejs/data/mekanism/recipes/crushing/venus_sandstone_to_venus_sand.json
 hash = "08e48e39b563da4dfad137306ef30a0e74949344f064eda76de41fbcb5d9e474"
 
 [[files]]
+file = "kubejs/data/stellarity/functions/advancements/beam_me_up/loop.mcfunction"
+hash = "642aa311350bbeabd2449a97bd72aa66d7b4c4cb88c043d5cc5bbebf91674557"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/items/main.mcfunction"
+hash = "e39347004f02310337622c467a700810873c2180594e3c1b3bd11ed66dcac708"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/items/prismatic_punch/blast_loop.mcfunction"
+hash = "265f31fc11e05baf528f2d149852ea9ce1cdccdb0947378abff4748f8be202fd"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/items/prismatic_punch/detonate/piercing/start.mcfunction"
+hash = "7eb63a545704981bd5d32f82619fcd4fc6c9aa9312958ee9c49fe4d53372f1d7"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/items/prismatic_punch/detonate/piercing/target_next.mcfunction"
+hash = "369d8dd1bdb09c5d98173579ac495fa63feb064c1408e27cbcc8d8a26f140eba"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/items/spellbooks/natures_wrath/spirit/extra_choose/mountain.mcfunction"
+hash = "500d27ad507cb1a1babdcbbe2b8192eb588559f66fb82702f4cbaa536cc3cf79"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/items/spellbooks/natures_wrath/spirit/loop.mcfunction"
+hash = "c6b7ae79442a64ec0c4a44fb9159fdbde49aec3a143a16881366decabe47ad62"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/items/spirit_dagger/attack.mcfunction"
+hash = "9947a54ce0770134f7eeefcbc14630cc34cae37f3d240763d08911f3b39617e5"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/loops/1_second.mcfunction"
+hash = "ab122e974ff696e0ba7bfdfefd6bea522caf425d8d6285abb220d092902755fe"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/loops/2_tick.mcfunction"
+hash = "725eb2d8320be6338f31042386899752e12d33031f7464ec9f89ae1128f5f164"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/loops/3_tick.mcfunction"
+hash = "1d0dca598d61c5ee95039f6c5788519bf50b7c84574c0c13544760479c9a9c8d"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/loops/5_second.mcfunction"
+hash = "3862a2a4087d1eb022f383906b10096b1311a9ce3de940d01c2bf4b57bcf0ab2"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/loops/5_tick.mcfunction"
+hash = "68d0bee62d9a37648e5d3cb2331cc40603678e79bf7b13561a4cf28e1a899865"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/main.mcfunction"
+hash = "e9bcd672391852e68782eb1c8ad5c56e295c4da6439a36de9f4f58d85ea452a2"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/mechanics/altar_crafting/hallcient_armor/checks.mcfunction"
+hash = "06edb1f9cd2e788ea467f84094d336d10782b62652f0568fb99ad2f0e192261a"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/mechanics/altar_crafting/items/checks.mcfunction"
+hash = "663b25749298d0bc021b55cc1b6481720a3a790c2c035ccb793707787ef7139a"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/mechanics/altar_crafting/main.mcfunction"
+hash = "b8dbc8670be9b023bdb0ff119fc3f0e596c9c6e2d351b7d697f6565c15d12764"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/mechanics/altar_crafting/shulker_armor/checks.mcfunction"
+hash = "5feb1b9dca6b9b9e57258e315c0bb2f815dec510b137b717486b87c080ad2f3e"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/mechanics/altar_crafting/shulker_tools/checks.mcfunction"
+hash = "f5d09923a46d876040363bd92ac614ec5ce092199a6ab58e5d79ebfd783a7d78"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/mechanics/altar_of_light/main.mcfunction"
+hash = "61cef2e47d2a33233816af8e55ee81fcb013be4bae11b4b4303c3c40543e6498"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/mechanics/void_fishing/aec_tick.mcfunction"
+hash = "fc8c0fc853bea0b71fae4855a23cacffe8516928dc9c870a2f699971e7ce8085"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/mobs/eol/attacks/code/ethereal_lance/pick_point.mcfunction"
+hash = "b6a8b9175da4f82f36f4d17f533243b0c9219998d6d3d00c95c22dc833b94ffe"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/mobs/eol/attacks/code/ethereal_lance/spawn_sword.mcfunction"
+hash = "685319f6d7117851745829f331c90dc2313dabf6bfa9ebdbcbbdba79c8a38d41"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/mobs/eol/attacks/code/ethereal_lance/spawn_sword_no_rotate.mcfunction"
+hash = "a64f10567bfecfe80f49ead0177e77db75467a4624d5cf05cac11a6c9c71accb"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/mobs/eol/attacks/code/prismatic_bolts/post_spawn.mcfunction"
+hash = "523efcd2413217a17b4c78f2a8fd483e277d6c1ea69016888ed75f6a9d13887b"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/mobs/eol/attacks/code/prismatic_bolts_2/post_spawn.mcfunction"
+hash = "523efcd2413217a17b4c78f2a8fd483e277d6c1ea69016888ed75f6a9d13887b"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/mobs/main.mcfunction"
+hash = "4dc0eea97dfac03dff1efbdfb60d180a36c7a6772ba0fc491767d33528cf6718"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/mobs/stronghold/main.mcfunction"
+hash = "7c3e7c3a570c61e3e8ee36b25de1178a2a52d0a811288933ab652669f35565bd"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/utils/main.mcfunction"
+hash = "831162fc2aee73de98dbd777a8a9a020f075869e8c25d850a75ee3f595fbba0b"
+
+[[files]]
+file = "kubejs/data/stellarity/functions/visuals/end_portal_animation/raycast/hit_block.mcfunction"
+hash = "8ff340938840f8e18eb6749712893121e952006591d580b72fae0f990fa4a642"
+
+[[files]]
 file = "kubejs/data/tofucraft/recipes/integration/botanypot/crop/botanypot_nether_soybean.json"
 hash = "67b26248912d0160fa4a753c80b82a3322642ac8115f3de2fbbfc498d00bc897"
 

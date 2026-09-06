@@ -1,0 +1,616 @@
+{
+  "source_jar": "stellarity.jar",
+  "source_sha256": "7cf2f221caa42e7a49754f8e788b07abeee3dac0545a30dc207c9deefe18a0a2",
+  "files": [
+    {
+      "file": "data/stellarity/functions/advancements/beam_me_up/loop.mcfunction",
+      "original_sha256": "d7bd5f5979c8e5dda1efbbb224c68a7c6174384a9750d45c8d321b0254b05447",
+      "changes": [
+        {
+          "line": 1,
+          "before": "execute if entity @e[type=minecraft:ender_pearl,tag=stellarity.pearl_advancement,distance=100..] run advancement grant @s only stellarity:adventure/beam_me_up",
+          "after": "execute if entity @e[type=minecraft:ender_pearl,tag=stellarity.pearl_advancement,distance=100..,limit=1,sort=arbitrary] run advancement grant @s only stellarity:adventure/beam_me_up"
+        },
+        {
+          "line": 2,
+          "before": "execute unless entity @e[type=minecraft:ender_pearl,tag=stellarity.pearl_advancement] run tag @s remove stellarity.pearl_advancement_pending",
+          "after": "execute unless entity @e[type=minecraft:ender_pearl,tag=stellarity.pearl_advancement,limit=1,sort=arbitrary] run tag @s remove stellarity.pearl_advancement_pending"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/items/main.mcfunction",
+      "original_sha256": "744eec750a41b70ee904c690c4132d6e9438094fd78b8a982806ccca8830a7b5",
+      "changes": [
+        {
+          "line": 9,
+          "before": "execute as @a[predicate=stellarity:items/holding_dragonblade,predicate=stellarity:utils/player/is_sneaking] at @s as @e[distance=0.001..5,tag=stellarity.items.dragonblade.punch_ready] at @s run function stellarity:items/dragonblade/punch/progress",
+          "after": "execute as @a[predicate=stellarity:items/holding_dragonblade,predicate=stellarity:utils/player/is_sneaking] at @s as @e[tag=stellarity.items.dragonblade.punch_ready,distance=0.001..5] at @s run function stellarity:items/dragonblade/punch/progress"
+        },
+        {
+          "line": 11,
+          "before": "execute as @e[type=area_effect_cloud,tag=stellarity.items.dragonblade.smthgram_aec] at @s rotated as @s run function stellarity:items/dragonblade/punch/special_fx/smthgram",
+          "after": "execute as @e[tag=stellarity.items.dragonblade.smthgram_aec,type=area_effect_cloud] at @s rotated as @s run function stellarity:items/dragonblade/punch/special_fx/smthgram"
+        },
+        {
+          "line": 19,
+          "before": "execute as @e[type=spectral_arrow,tag=stellarity.spectral_bolt] at @s run function stellarity:items/sharanga/arrow_loop",
+          "after": "execute as @e[tag=stellarity.spectral_bolt,type=spectral_arrow] at @s run function stellarity:items/sharanga/arrow_loop"
+        },
+        {
+          "line": 22,
+          "before": "execute as @e[type=marker,tag=stellarity.prismatic_blast] at @s run function stellarity:items/prismatic_punch/blast_loop",
+          "after": "execute as @e[tag=stellarity.prismatic_blast,type=marker] at @s run function stellarity:items/prismatic_punch/blast_loop"
+        },
+        {
+          "line": 25,
+          "before": "execute as @e[type=marker,tag=stellarity.sariel.heal_orb] at @s anchored eyes run function stellarity:items/sariel/orb_loop",
+          "after": "execute as @e[tag=stellarity.sariel.heal_orb,type=marker] at @s anchored eyes run function stellarity:items/sariel/orb_loop"
+        },
+        {
+          "line": 30,
+          "before": "execute as @e[type=#arrows,tag=stellarity.items.sabrewing.arrow] at @s run function stellarity:items/sabrewing/charged_shots/loop",
+          "after": "execute as @e[tag=stellarity.items.sabrewing.arrow,type=#arrows] at @s run function stellarity:items/sabrewing/charged_shots/loop"
+        },
+        {
+          "line": 33,
+          "before": "execute as @e[type=area_effect_cloud,tag=stellarity.duskberry_cloud] at @s run function stellarity:items/duskberry/as_aec",
+          "after": "execute as @e[tag=stellarity.duskberry_cloud,type=area_effect_cloud] at @s run function stellarity:items/duskberry/as_aec"
+        },
+        {
+          "line": 36,
+          "before": "execute as @e[type=marker,tag=stellarity.carcanet.star] at @s run function stellarity:items/starstruck_carcanet/star_loop",
+          "after": "execute as @e[tag=stellarity.carcanet.star,type=marker] at @s run function stellarity:items/starstruck_carcanet/star_loop"
+        },
+        {
+          "line": 46,
+          "before": "execute as @e[type=ender_pearl,tag=stellarity.prismatic_pearl] at @s run function stellarity:items/prismatic_pearl/trail",
+          "after": "execute as @e[tag=stellarity.prismatic_pearl,type=ender_pearl] at @s run function stellarity:items/prismatic_pearl/trail"
+        },
+        {
+          "line": 49,
+          "before": "execute as @e[type=marker,tag=stellarity.zephyr.wind] at @s anchored eyes run function stellarity:items/zephyr/wind_loop",
+          "after": "execute as @e[tag=stellarity.zephyr.wind,type=marker] at @s anchored eyes run function stellarity:items/zephyr/wind_loop"
+        },
+        {
+          "line": 56,
+          "before": "execute as @e[type=armor_stand,tag=stellarity.pandoras_barrel.armor_stand] at @s positioned ~ ~1.7 ~ run function stellarity:items/pandoras_barrel/animation/progress",
+          "after": "execute as @e[tag=stellarity.pandoras_barrel.armor_stand,type=armor_stand] at @s positioned ~ ~1.7 ~ run function stellarity:items/pandoras_barrel/animation/progress"
+        },
+        {
+          "line": 59,
+          "before": "execute as @a[predicate=stellarity:items/holding_tamaris] at @s if entity @e[type=!#stellarity:invalid_targets,distance=..16,limit=1,sort=nearest,tag=stellarity.items.tamaris.executable] run function stellarity:items/tamaris/holding_loop",
+          "after": "execute as @a[predicate=stellarity:items/holding_tamaris] at @s if entity @e[tag=stellarity.items.tamaris.executable,type=!#stellarity:invalid_targets,distance=..16,limit=1,sort=arbitrary] run function stellarity:items/tamaris/holding_loop"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/items/prismatic_punch/blast_loop.mcfunction",
+      "original_sha256": "1f33cee517f93baf9a6d965f9fb5ee0ba040234b819bc4adc7ac9d33123ebc9f",
+      "changes": [
+        {
+          "line": 12,
+          "before": "execute anchored eyes unless entity @e[type=!#stellarity:invalid_targets_with_player,limit=1,sort=nearest,distance=..12] run function stellarity:items/prismatic_punch/move/main",
+          "after": "execute anchored eyes unless entity @e[type=!#stellarity:invalid_targets_with_player,distance=..12,limit=1,sort=arbitrary] run function stellarity:items/prismatic_punch/move/main"
+        },
+        {
+          "line": 16,
+          "before": "execute anchored eyes if entity @e[type=!#stellarity:invalid_targets_with_player,distance=..2.5] if score @s stellarity.items.prismatic_punch.marker_age matches 5.. run function stellarity:items/prismatic_punch/detonate/check_self",
+          "after": "execute anchored eyes if entity @e[type=!#stellarity:invalid_targets_with_player,distance=..2.5,limit=1,sort=arbitrary] if score @s stellarity.items.prismatic_punch.marker_age matches 5.. run function stellarity:items/prismatic_punch/detonate/check_self"
+        },
+        {
+          "line": 17,
+          "before": "execute anchored eyes if entity @e[type=player,distance=..2.5] if score @s stellarity.items.prismatic_punch.marker_age matches 8.. run function stellarity:items/prismatic_punch/detonate/check_self",
+          "after": "execute anchored eyes if entity @e[type=player,distance=..2.5,limit=1,sort=arbitrary] if score @s stellarity.items.prismatic_punch.marker_age matches 8.. run function stellarity:items/prismatic_punch/detonate/check_self"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/items/prismatic_punch/detonate/piercing/start.mcfunction",
+      "original_sha256": "26aa0fd015109792554ebeb3af96c16baa334878b695781e86eabe9eacea4828",
+      "changes": [
+        {
+          "line": 2,
+          "before": "execute if entity @e[type=!#stellarity:invalid_targets_with_player,distance=..9,tag=!stellarity.prismatic_blast.pierced] run scoreboard players set #continue stellarity.misc 1",
+          "after": "execute if entity @e[type=!#stellarity:invalid_targets_with_player,distance=..9,tag=!stellarity.prismatic_blast.pierced,limit=1,sort=arbitrary] run scoreboard players set #continue stellarity.misc 1"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/items/prismatic_punch/detonate/piercing/target_next.mcfunction",
+      "original_sha256": "66371fdbc3db002496dad13da68f25b31253511ff7d4738b051770543252b3ec",
+      "changes": [
+        {
+          "line": 2,
+          "before": "execute if entity @e[type=!#stellarity:invalid_targets_with_player,distance=..9,tag=!stellarity.prismatic_blast.pierced] run scoreboard players set #continue stellarity.misc 1",
+          "after": "execute if entity @e[type=!#stellarity:invalid_targets_with_player,distance=..9,tag=!stellarity.prismatic_blast.pierced,limit=1,sort=arbitrary] run scoreboard players set #continue stellarity.misc 1"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/items/spellbooks/natures_wrath/spirit/extra_choose/mountain.mcfunction",
+      "original_sha256": "c4daa789d70b3c3d4d4b601f501b91f8d5f7822f4af0934f143a3049f8601830",
+      "changes": [
+        {
+          "line": 4,
+          "before": "execute if entity @e[type=!#stellarity:invalid_targets_with_player,distance=..13] run scoreboard players set #mob_count stellarity.misc 0",
+          "after": "execute if entity @e[type=!#stellarity:invalid_targets_with_player,distance=..13,limit=1,sort=arbitrary] run scoreboard players set #mob_count stellarity.misc 0"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/items/spellbooks/natures_wrath/spirit/loop.mcfunction",
+      "original_sha256": "223f5c746ad612fd953eea5e15ea50546fdf129c1a76c81bbb55df006af8a981",
+      "changes": [
+        {
+          "line": 5,
+          "before": "execute anchored eyes unless entity @e[type=!#stellarity:invalid_targets_with_player,type=!wolf,type=!cat,limit=1,sort=nearest,distance=..6] run function stellarity:items/spellbooks/natures_wrath/spirit/move",
+          "after": "execute anchored eyes unless entity @e[type=!#stellarity:invalid_targets_with_player,type=!wolf,type=!cat,distance=..6,limit=1,sort=arbitrary] run function stellarity:items/spellbooks/natures_wrath/spirit/move"
+        },
+        {
+          "line": 12,
+          "before": "execute if entity @e[type=!#stellarity:invalid_targets_with_player,type=!wolf,type=!cat,distance=..3.5] run function stellarity:items/spellbooks/natures_wrath/spirit/damage",
+          "after": "execute if entity @e[type=!#stellarity:invalid_targets_with_player,type=!wolf,type=!cat,distance=..3.5,limit=1,sort=arbitrary] run function stellarity:items/spellbooks/natures_wrath/spirit/damage"
+        },
+        {
+          "line": 16,
+          "before": "execute if score @s stellarity.misc matches 25.. unless entity @e[type=!#stellarity:invalid_targets_with_player,limit=1,sort=nearest,distance=..6] run particle explosion",
+          "after": "execute if score @s stellarity.misc matches 25.. unless entity @e[type=!#stellarity:invalid_targets_with_player,distance=..6,limit=1,sort=arbitrary] run particle explosion"
+        },
+        {
+          "line": 17,
+          "before": "execute if score @s stellarity.misc matches 25.. unless entity @e[type=!#stellarity:invalid_targets_with_player,limit=1,sort=nearest,distance=..6] run kill @s",
+          "after": "execute if score @s stellarity.misc matches 25.. unless entity @e[type=!#stellarity:invalid_targets_with_player,distance=..6,limit=1,sort=arbitrary] run kill @s"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/items/spirit_dagger/attack.mcfunction",
+      "original_sha256": "232c612505fd5271be529479effb11a5b68d22117b89eabf239753e825d0a296",
+      "changes": [
+        {
+          "line": 3,
+          "before": "execute unless entity @s[tag=stellarity.spirit_dagger.teleport] as @e[type=!#stellarity:invalid_targets,limit=1,sort=nearest,nbt={HurtTime:10s}] unless score @s stellarity.items.spirit_dagger.attract_cooldown matches 1.. unless entity @e[type=armor_stand,distance=..4,tag=stellarity.spirit_dagger.spirit] if predicate stellarity:utils/chance/50percent at @s run function stellarity:items/spirit_dagger/spirit/attract",
+          "after": "execute unless entity @s[tag=stellarity.spirit_dagger.teleport] as @e[type=!#stellarity:invalid_targets,limit=1,sort=nearest,nbt={HurtTime:10s}] unless score @s stellarity.items.spirit_dagger.attract_cooldown matches 1.. unless entity @e[type=armor_stand,distance=..4,tag=stellarity.spirit_dagger.spirit,limit=1,sort=arbitrary] if predicate stellarity:utils/chance/50percent at @s run function stellarity:items/spirit_dagger/spirit/attract"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/loops/1_second.mcfunction",
+      "original_sha256": "ae3161136bd297e5360c9ba706259db11ada6fbafdce1f41d1639a2b92487fd3",
+      "changes": [
+        {
+          "line": 1,
+          "before": "execute as @e[type=marker,tag=stellarity.altar_of_accursed,tag=stellarity.aota_activated] at @s run function stellarity:mechanics/altar_crafting/main",
+          "after": "execute as @e[tag=stellarity.altar_of_accursed,tag=stellarity.aota_activated,type=marker] at @s run function stellarity:mechanics/altar_crafting/main"
+        },
+        {
+          "line": 2,
+          "before": "execute as @e[type=marker,tag=stellarity.altar_of_the_light] at @s run function stellarity:mechanics/altar_of_light/main",
+          "after": "execute as @e[tag=stellarity.altar_of_the_light,type=marker] at @s run function stellarity:mechanics/altar_of_light/main"
+        },
+        {
+          "line": 9,
+          "before": "execute as @e[type=marker,tag=stellarity.book_of_light.aura] at @s as @a[distance=..5.5] run function stellarity:items/spellbooks/light/effects",
+          "after": "execute as @e[tag=stellarity.book_of_light.aura,type=marker] at @s as @a[distance=..5.5] run function stellarity:items/spellbooks/light/effects"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/loops/2_tick.mcfunction",
+      "original_sha256": "4fd2e56f638f83e262c228d3881475badbad0d4a9692263d264f4a292144d0ff",
+      "changes": [
+        {
+          "line": 2,
+          "before": "execute as @e[type=vex,tag=stellarity.pixie] at @s run function stellarity:mobs/pixie/loop",
+          "after": "execute as @e[tag=stellarity.pixie,type=vex] at @s run function stellarity:mobs/pixie/loop"
+        },
+        {
+          "line": 10,
+          "before": "execute as @e[type=armor_stand,tag=stellarity.spirit_dagger.spirit] at @s anchored eyes positioned ^ ^ ^ run function stellarity:items/spirit_dagger/spirit/loop",
+          "after": "execute as @e[tag=stellarity.spirit_dagger.spirit,type=armor_stand] at @s anchored eyes positioned ^ ^ ^ run function stellarity:items/spirit_dagger/spirit/loop"
+        },
+        {
+          "line": 16,
+          "before": "execute as @e[type=area_effect_cloud,tag=stellarity.carcanet.aec] at @s run function stellarity:items/starstruck_carcanet/aec_loop",
+          "after": "execute as @e[tag=stellarity.carcanet.aec,type=area_effect_cloud] at @s run function stellarity:items/starstruck_carcanet/aec_loop"
+        },
+        {
+          "line": 20,
+          "before": "execute as @e[type=!#stellarity:invalid_targets,tag=stellarity.items.tamaris.executable] at @s anchored eyes rotated ~ 0 positioned ^ ^1.5 ^ run function stellarity:items/tamaris/execute/indicator",
+          "after": "execute as @e[tag=stellarity.items.tamaris.executable,type=!#stellarity:invalid_targets] at @s anchored eyes rotated ~ 0 positioned ^ ^1.5 ^ run function stellarity:items/tamaris/execute/indicator"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/loops/3_tick.mcfunction",
+      "original_sha256": "684436ac10393ae26ed85037298626c34df6fd24e27b4d7b454bf3e696addca8",
+      "changes": [
+        {
+          "line": 2,
+          "before": "execute as @e[type=allay,tag=stellarity.allay.natural_hallow_spawn] at @s run function stellarity:mobs/the_hallow_allay_despawn",
+          "after": "execute as @e[tag=stellarity.allay.natural_hallow_spawn,type=allay] at @s run function stellarity:mobs/the_hallow_allay_despawn"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/loops/5_second.mcfunction",
+      "original_sha256": "1b1d89ec77560a793b5c321dc02661b3c2cbef09011c9ab3f82775d8fd9177b7",
+      "changes": [
+        {
+          "line": 9,
+          "before": "execute as @e[type=slime,tag=stellarity.gloop] at @s run function stellarity:mobs/gloop/main",
+          "after": "execute as @e[tag=stellarity.gloop,type=slime] at @s run function stellarity:mobs/gloop/main"
+        },
+        {
+          "line": 12,
+          "before": "execute as @e[type=marker,tag=stellarity.end_portal] at @s run function stellarity:visuals/end_portal_animation/ambient_sounds",
+          "after": "execute as @e[tag=stellarity.end_portal,type=marker] at @s run function stellarity:visuals/end_portal_animation/ambient_sounds"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/loops/5_tick.mcfunction",
+      "original_sha256": "88e95ba05f4ce05cff5a2fc2eed8a1f88f251e89d54bd0b0c08c6ceab1200a64",
+      "changes": [
+        {
+          "line": 3,
+          "before": "execute at @e[type=vindicator,tag=stellarity.eol] run bossbar set stellarity:eol players @a[distance=..100]",
+          "after": "execute at @e[tag=stellarity.eol,type=vindicator] run bossbar set stellarity:eol players @a[distance=..100]"
+        },
+        {
+          "line": 6,
+          "before": "execute as @e[type=minecraft:shulker_bullet,tag=stellarity.defensive_shulker_bullet] at @s run function stellarity:items/armors/shulker_armor/bullet_seek",
+          "after": "execute as @e[tag=stellarity.defensive_shulker_bullet,type=minecraft:shulker_bullet] at @s run function stellarity:items/armors/shulker_armor/bullet_seek"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/main.mcfunction",
+      "original_sha256": "223ae08f16b67d76b173ff79ecb4aa734d479e9b11e172c4772308d7d3db926b",
+      "changes": [
+        {
+          "line": 15,
+          "before": "execute if entity @e[type=minecraft:ender_dragon,tag=!fe.boss,tag=!fe.ender_dragon,tag=!fe.init,tag=!fe.mob,predicate=stellarity:locations/in_dragons_den] run schedule function stellarity:mobs/dragon/butcher/scheduled 1t append",
+          "after": "execute if entity @e[tag=!fe.boss,tag=!fe.ender_dragon,tag=!fe.init,tag=!fe.mob,type=minecraft:ender_dragon,predicate=stellarity:locations/in_dragons_den] run schedule function stellarity:mobs/dragon/butcher/scheduled 1t append"
+        },
+        {
+          "line": 19,
+          "before": "execute as @e[type=minecraft:marker,tag=fe.exit_portal] at @s run function far_end:structures/exit_portal/main",
+          "after": "execute as @e[tag=fe.exit_portal,type=minecraft:marker] at @s run function far_end:structures/exit_portal/main"
+        },
+        {
+          "line": 22,
+          "before": "execute as @e[type=marker,tag=stellarity.end_portal_animation,tag=stellarity.end_portal_animation.check_schedule] at @s run function stellarity:visuals/end_portal_animation/checks/base",
+          "after": "execute as @e[tag=stellarity.end_portal_animation,tag=stellarity.end_portal_animation.check_schedule,type=marker] at @s run function stellarity:visuals/end_portal_animation/checks/base"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/mechanics/altar_crafting/hallcient_armor/checks.mcfunction",
+      "original_sha256": "ea23d0cc56c8378a13340d9462a1acb4287d28c77b90bddcb17bbe8ed4243808",
+      "changes": [
+        {
+          "line": 1,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.hallowed_ingot_5,distance=..1.5] run function stellarity:mechanics/altar_crafting/hallcient_armor/hallowed/craft_helmet",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.hallowed_ingot_5,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/hallcient_armor/hallowed/craft_helmet"
+        },
+        {
+          "line": 3,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.hallowed_ingot_8,distance=..1.5] run function stellarity:mechanics/altar_crafting/hallcient_armor/hallowed/craft_chestplate",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.hallowed_ingot_8,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/hallcient_armor/hallowed/craft_chestplate"
+        },
+        {
+          "line": 5,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.hallowed_ingot_7,distance=..1.5] run function stellarity:mechanics/altar_crafting/hallcient_armor/hallowed/craft_leggings",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.hallowed_ingot_7,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/hallcient_armor/hallowed/craft_leggings"
+        },
+        {
+          "line": 7,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.hallowed_ingot_4,distance=..1.5] run function stellarity:mechanics/altar_crafting/hallcient_armor/hallowed/craft_boots",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.hallowed_ingot_4,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/hallcient_armor/hallowed/craft_boots"
+        },
+        {
+          "line": 9,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.ancient_plating_5,distance=..1.5] run function stellarity:mechanics/altar_crafting/hallcient_armor/ancient/craft_helmet",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.ancient_plating_5,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/hallcient_armor/ancient/craft_helmet"
+        },
+        {
+          "line": 11,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.ancient_plating_8,distance=..1.5] run function stellarity:mechanics/altar_crafting/hallcient_armor/ancient/craft_chestplate",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.ancient_plating_8,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/hallcient_armor/ancient/craft_chestplate"
+        },
+        {
+          "line": 13,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.ancient_plating_7,distance=..1.5] run function stellarity:mechanics/altar_crafting/hallcient_armor/ancient/craft_leggings",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.ancient_plating_7,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/hallcient_armor/ancient/craft_leggings"
+        },
+        {
+          "line": 15,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.ancient_plating_4,distance=..1.5] run function stellarity:mechanics/altar_crafting/hallcient_armor/ancient/craft_boots",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.ancient_plating_4,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/hallcient_armor/ancient/craft_boots"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/mechanics/altar_crafting/items/checks.mcfunction",
+      "original_sha256": "fe0a894bb2ccc4397ed35ab4413faa6dd058ab67b190fd561749ee5c98c16732",
+      "changes": [
+        {
+          "line": 1,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.iron_sword,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.10_pixie_dust,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.5_gold_ingots,distance=..1.5] run function stellarity:mechanics/altar_crafting/items/craft_sariel",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.iron_sword,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.10_pixie_dust,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.5_gold_ingots,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/items/craft_sariel"
+        },
+        {
+          "line": 3,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.crossbow,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.6_diamonds,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.24_pixie_dust,distance=..1.5] run function stellarity:mechanics/altar_crafting/items/craft_prismatic_punch",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.crossbow,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.6_diamonds,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.24_pixie_dust,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/items/craft_prismatic_punch"
+        },
+        {
+          "line": 5,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.bow,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.10_feathers,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.12_gold_ingots,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_ingot,distance=..1.5] run function stellarity:mechanics/altar_crafting/items/craft_sabrewing",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.bow,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.10_feathers,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.12_gold_ingots,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_ingot,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/items/craft_sabrewing"
+        },
+        {
+          "line": 7,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.enchanted_book,distance=..1.5] run function stellarity:mechanics/altar_crafting/items/craft_cursed_tome",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.enchanted_book,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/items/craft_cursed_tome"
+        },
+        {
+          "line": 11,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.golden_sword,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.10_feathers,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.iron_sword,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.6_sugar,distance=..1.5] run function stellarity:mechanics/altar_crafting/items/craft_zephyr",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.golden_sword,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.10_feathers,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.iron_sword,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.6_sugar,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/items/craft_zephyr"
+        },
+        {
+          "line": 13,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.barrel,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.1_iron_block,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.1_gold_block,distance=..1.5] run function stellarity:mechanics/altar_crafting/items/craft_pandoras_barrel",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.barrel,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.1_iron_block,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.1_gold_block,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/items/craft_pandoras_barrel"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/mechanics/altar_crafting/main.mcfunction",
+      "original_sha256": "bb3fd04d7905d3c83fcf8b5a43a4764b1572e3cc15cc4ad8351c3139873c36c6",
+      "changes": [
+        {
+          "line": 7,
+          "before": "execute if entity @e[type=item,distance=..1.5] run function stellarity:mechanics/altar_crafting/crafting_checks",
+          "after": "execute if entity @e[type=item,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/crafting_checks"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/mechanics/altar_crafting/shulker_armor/checks.mcfunction",
+      "original_sha256": "ca9fb8fbe9487276f7312c3821e542de0396579559e72a8194c84f6ad0971695",
+      "changes": [
+        {
+          "line": 1,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.shulker_shells,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_helmet,distance=..1.5] at @s run function stellarity:mechanics/altar_crafting/shulker_armor/craft_helmet",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.shulker_shells,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_helmet,distance=..1.5,limit=1,sort=arbitrary] at @s run function stellarity:mechanics/altar_crafting/shulker_armor/craft_helmet"
+        },
+        {
+          "line": 2,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.shulker_shells,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_chestplate,distance=..1.5] run function stellarity:mechanics/altar_crafting/shulker_armor/craft_chestplate",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.shulker_shells,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_chestplate,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/shulker_armor/craft_chestplate"
+        },
+        {
+          "line": 3,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.shulker_shells,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_leggings,distance=..1.5] run function stellarity:mechanics/altar_crafting/shulker_armor/craft_leggings",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.shulker_shells,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_leggings,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/shulker_armor/craft_leggings"
+        },
+        {
+          "line": 4,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.shulker_shells,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_boots,distance=..1.5] run function stellarity:mechanics/altar_crafting/shulker_armor/craft_boots",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.shulker_shells,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_boots,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/shulker_armor/craft_boots"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/mechanics/altar_crafting/shulker_tools/checks.mcfunction",
+      "original_sha256": "58b8140bb36d4835921427d6bfe2a122b0e2e10d95d8b36d464e9efb6c1411fd",
+      "changes": [
+        {
+          "line": 1,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.shulker_shells,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_pickaxe,distance=..1.5] at @s run function stellarity:mechanics/altar_crafting/shulker_tools/craft_pickaxe",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.shulker_shells,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_pickaxe,distance=..1.5,limit=1,sort=arbitrary] at @s run function stellarity:mechanics/altar_crafting/shulker_tools/craft_pickaxe"
+        },
+        {
+          "line": 2,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.shulker_shells,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_axe,distance=..1.5] run function stellarity:mechanics/altar_crafting/shulker_tools/craft_axe",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.shulker_shells,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_axe,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/shulker_tools/craft_axe"
+        },
+        {
+          "line": 3,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.shulker_shells,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_shovel,distance=..1.5] run function stellarity:mechanics/altar_crafting/shulker_tools/craft_shovel",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.shulker_shells,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_shovel,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/shulker_tools/craft_shovel"
+        },
+        {
+          "line": 4,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.shulker_shells,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_hoe,distance=..1.5] run function stellarity:mechanics/altar_crafting/shulker_tools/craft_hoe",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.shulker_shells,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_hoe,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/shulker_tools/craft_hoe"
+        },
+        {
+          "line": 5,
+          "before": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.shulker_shells,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_sword,distance=..1.5] run function stellarity:mechanics/altar_crafting/shulker_tools/craft_sword",
+          "after": "execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.shulker_shells,distance=..1.5,limit=1,sort=arbitrary] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.netherite_sword,distance=..1.5,limit=1,sort=arbitrary] run function stellarity:mechanics/altar_crafting/shulker_tools/craft_sword"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/mechanics/altar_of_light/main.mcfunction",
+      "original_sha256": "2ca7f9ca9dfdf1a681c3afc0d4ae4ebefcb45d4cedc1b604768e84540916b484",
+      "changes": [
+        {
+          "line": 3,
+          "before": "execute unless entity @e[type=vindicator,tag=stellarity.eol] unless entity @e[type=marker,tag=stellarity.eol.spawn_animation] as @e[type=item,distance=..1.5,nbt={Item:{tag:{stellarity.special_item:\"pixie_dust\"}}}] run function stellarity:mechanics/altar_of_light/spawn_empress",
+          "after": "execute unless entity @e[type=vindicator,tag=stellarity.eol,limit=1,sort=arbitrary] unless entity @e[type=marker,tag=stellarity.eol.spawn_animation,limit=1,sort=arbitrary] as @e[type=item,distance=..1.5,nbt={Item:{tag:{stellarity.special_item:\"pixie_dust\"}}}] run function stellarity:mechanics/altar_of_light/spawn_empress"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/mechanics/void_fishing/aec_tick.mcfunction",
+      "original_sha256": "127745b045a87d8f81e43bdc85f949f68e62b2df284e8098889ba8f74fb7677a",
+      "changes": [
+        {
+          "line": 24,
+          "before": "execute unless entity @e[type=fishing_bobber,tag=stellarity.checked_bobber,distance=..2,limit=1] run function stellarity:mechanics/void_fishing/stop",
+          "after": "execute unless entity @e[type=fishing_bobber,tag=stellarity.checked_bobber,distance=..2,limit=1,sort=arbitrary] run function stellarity:mechanics/void_fishing/stop"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/mobs/eol/attacks/code/ethereal_lance/pick_point.mcfunction",
+      "original_sha256": "eb232f0cfde46dba3824cf4d0c3ce1b55a678ea78e93e12ca67ebca872e3c2ea",
+      "changes": [
+        {
+          "line": 4,
+          "before": "execute if entity @e[tag=stellarity.eol.daytime] at @p run summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,Duration:1,WaitTime:-2147483648,Tags:[\"stellarity.eol.ethereal_lance.pick_point\",\"stellarity.eol.daytime\"]}",
+          "after": "execute if entity @e[tag=stellarity.eol.daytime,limit=1,sort=arbitrary] at @p run summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,Duration:1,WaitTime:-2147483648,Tags:[\"stellarity.eol.ethereal_lance.pick_point\",\"stellarity.eol.daytime\"]}"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/mobs/eol/attacks/code/ethereal_lance/spawn_sword.mcfunction",
+      "original_sha256": "6c15b63dfc33e16074cd0f7667bb131a95f0a279b63a0ea445fadd41c0ad8e4b",
+      "changes": [
+        {
+          "line": 17,
+          "before": "execute if entity @e[type=vindicator,limit=1,sort=nearest,tag=stellarity.eol.daytime] run tag @e[type=marker,limit=1,sort=nearest,tag=stellarity.eol.ethereal_lance] add stellarity.eol.ethereal_lance.gold",
+          "after": "execute if entity @e[type=vindicator,tag=stellarity.eol.daytime,limit=1,sort=arbitrary] run tag @e[type=marker,limit=1,sort=nearest,tag=stellarity.eol.ethereal_lance] add stellarity.eol.ethereal_lance.gold"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/mobs/eol/attacks/code/ethereal_lance/spawn_sword_no_rotate.mcfunction",
+      "original_sha256": "ff688f5034782cd6dd5fa322763876ce9cd067e5c0ca26cdae98d5363f1097b1",
+      "changes": [
+        {
+          "line": 15,
+          "before": "execute if entity @e[type=vindicator,limit=1,sort=nearest,tag=stellarity.eol.daytime] run tag @e[type=marker,limit=1,sort=nearest,tag=stellarity.eol.ethereal_lance] add stellarity.eol.ethereal_lance.gold",
+          "after": "execute if entity @e[type=vindicator,tag=stellarity.eol.daytime,limit=1,sort=arbitrary] run tag @e[type=marker,limit=1,sort=nearest,tag=stellarity.eol.ethereal_lance] add stellarity.eol.ethereal_lance.gold"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/mobs/eol/attacks/code/prismatic_bolts/post_spawn.mcfunction",
+      "original_sha256": "f895c936c7fd9e11b03cc2acc414edad8b95f263a2305c054c73ec8d6d8feff7",
+      "changes": [
+        {
+          "line": 14,
+          "before": "execute if entity @e[type=vindicator,limit=1,sort=nearest,tag=stellarity.eol.daytime] run tag @s add stellarity.eol.prismatic_bolt.gold",
+          "after": "execute if entity @e[type=vindicator,tag=stellarity.eol.daytime,limit=1,sort=arbitrary] run tag @s add stellarity.eol.prismatic_bolt.gold"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/mobs/eol/attacks/code/prismatic_bolts_2/post_spawn.mcfunction",
+      "original_sha256": "f895c936c7fd9e11b03cc2acc414edad8b95f263a2305c054c73ec8d6d8feff7",
+      "changes": [
+        {
+          "line": 14,
+          "before": "execute if entity @e[type=vindicator,limit=1,sort=nearest,tag=stellarity.eol.daytime] run tag @s add stellarity.eol.prismatic_bolt.gold",
+          "after": "execute if entity @e[type=vindicator,tag=stellarity.eol.daytime,limit=1,sort=arbitrary] run tag @s add stellarity.eol.prismatic_bolt.gold"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/mobs/main.mcfunction",
+      "original_sha256": "265069f88ab0c56d0bc41bbfa18aaada9f9e4d2ffaff991db0344498626c4bdc",
+      "changes": [
+        {
+          "line": 3,
+          "before": "execute as @e[type=vex,predicate=stellarity:locations/biomes/in_the_hallow,tag=!stellarity.pixie,tag=!stellarity.aware] at @s run function stellarity:mobs/pixie/check",
+          "after": "execute as @e[tag=!stellarity.pixie,tag=!stellarity.aware,type=vex,predicate=stellarity:locations/biomes/in_the_hallow] at @s run function stellarity:mobs/pixie/check"
+        },
+        {
+          "line": 7,
+          "before": "execute as @e[type=marker,tag=stellarity.eol.spawn_animation] at @s run function stellarity:mobs/eol/animations/spawn/loop",
+          "after": "execute as @e[tag=stellarity.eol.spawn_animation,type=marker] at @s run function stellarity:mobs/eol/animations/spawn/loop"
+        },
+        {
+          "line": 8,
+          "before": "execute as @e[type=vindicator,tag=stellarity.eol] at @s run function stellarity:mobs/eol/main",
+          "after": "execute as @e[tag=stellarity.eol,type=vindicator] at @s run function stellarity:mobs/eol/main"
+        },
+        {
+          "line": 12,
+          "before": "execute as @e[type=item,tag=stellarity.boss_drop] at @s run particle end_rod ~ ~ ~ .2 .2 .2 0.011 1 force @a[distance=..96]",
+          "after": "execute as @e[tag=stellarity.boss_drop,type=item] at @s run particle end_rod ~ ~ ~ .2 .2 .2 0.011 1 force @a[distance=..96]"
+        },
+        {
+          "line": 15,
+          "before": "execute as @e[type=slime,tag=stellarity.gloop] at @s if entity @e[type=frog,distance=..4] run effect give @s resistance 1 5 true",
+          "after": "execute as @e[tag=stellarity.gloop,type=slime] at @s if entity @e[type=frog,distance=..4,limit=1,sort=arbitrary] run effect give @s resistance 1 5 true"
+        },
+        {
+          "line": 18,
+          "before": "execute as @e[type=skeleton,tag=!stellarity.aware,predicate=stellarity:locations/biomes/in_end_wilds] at @s run function stellarity:mobs/wild_husk/spawn",
+          "after": "execute as @e[tag=!stellarity.aware,type=skeleton,predicate=stellarity:locations/biomes/in_end_wilds] at @s run function stellarity:mobs/wild_husk/spawn"
+        },
+        {
+          "line": 19,
+          "before": "execute as @e[type=skeleton,tag=!stellarity.aware,predicate=stellarity:locations/biomes/in_frosted_hills] at @s run function stellarity:mobs/frosted_stray/spawn",
+          "after": "execute as @e[tag=!stellarity.aware,type=skeleton,predicate=stellarity:locations/biomes/in_frosted_hills] at @s run function stellarity:mobs/frosted_stray/spawn"
+        },
+        {
+          "line": 21,
+          "before": "execute as @e[type=zombified_piglin,tag=!stellarity.aware,tag=!stellarity.flesh_piglin,predicate=stellarity:locations/biomes/in_flesh_tundra] run function stellarity:mobs/flesh_piglin/convert",
+          "after": "execute as @e[tag=!stellarity.aware,tag=!stellarity.flesh_piglin,type=zombified_piglin,predicate=stellarity:locations/biomes/in_flesh_tundra] run function stellarity:mobs/flesh_piglin/convert"
+        },
+        {
+          "line": 23,
+          "before": "execute as @e[type=#stellarity:stat_buff,tag=!stellarity.aware,tag=!stellarity.buffed,predicate=stellarity:locations/in_the_end] run function stellarity:mobs/stat_buff/main",
+          "after": "execute as @e[tag=!stellarity.aware,tag=!stellarity.buffed,type=#stellarity:stat_buff,predicate=stellarity:locations/in_the_end] run function stellarity:mobs/stat_buff/main"
+        },
+        {
+          "line": 25,
+          "before": "execute as @e[type=zombie,predicate=stellarity:locations/biomes/in_warped_marsh,tag=!stellarity.aware] at @s run function stellarity:mobs/warped_marsh_zombie_despawn",
+          "after": "execute as @e[tag=!stellarity.aware,type=zombie,predicate=stellarity:locations/biomes/in_warped_marsh] at @s run function stellarity:mobs/warped_marsh_zombie_despawn"
+        },
+        {
+          "line": 28,
+          "before": "execute as @e[type=villager,predicate=stellarity:locations/in_end_village,tag=!stellarity.villager.aware] at @s run function stellarity:mobs/villager/check",
+          "after": "execute as @e[tag=!stellarity.villager.aware,type=villager,predicate=stellarity:locations/in_end_village] at @s run function stellarity:mobs/villager/check"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/mobs/stronghold/main.mcfunction",
+      "original_sha256": "8f282dcd8cc1996d58c724675e780e583bc3b0a6a469a57bbf40dcf124beaeb0",
+      "changes": [
+        {
+          "line": 4,
+          "before": "execute as @e[type=#raiders,predicate=stellarity:locations/in_stronghold,tag=!stellarity.stronghold.buffed] run function stellarity:mobs/stronghold/illager_semi_switch_case",
+          "after": "execute as @e[tag=!stellarity.stronghold.buffed,type=#raiders,predicate=stellarity:locations/in_stronghold] run function stellarity:mobs/stronghold/illager_semi_switch_case"
+        },
+        {
+          "line": 7,
+          "before": "execute as @e[type=!#stellarity:invalid_targets_with_player,predicate=stellarity:locations/in_stronghold,tag=!stellarity.stronghold_enemy_buffed] unless entity @s[type=creeper] run function stellarity:mobs/stronghold/buff_enemies",
+          "after": "execute as @e[tag=!stellarity.stronghold_enemy_buffed,type=!#stellarity:invalid_targets_with_player,predicate=stellarity:locations/in_stronghold] unless entity @s[type=creeper] run function stellarity:mobs/stronghold/buff_enemies"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/utils/main.mcfunction",
+      "original_sha256": "e275d97a3671996e4890daae6b215e63435b2d5324f5d381d12aaa4d36b7d047",
+      "changes": [
+        {
+          "line": 5,
+          "before": "execute as @e[type=#stellarity:entity_awareness_checks,tag=!stellarity.aware] run tag @s add stellarity.aware",
+          "after": "execute as @e[tag=!stellarity.aware,type=#stellarity:entity_awareness_checks] run tag @s add stellarity.aware"
+        }
+      ]
+    },
+    {
+      "file": "data/stellarity/functions/visuals/end_portal_animation/raycast/hit_block.mcfunction",
+      "original_sha256": "e6e030940662b1780c849725ba9d38b81da8769a271a936f15a9d7ad1b2edb01",
+      "changes": [
+        {
+          "line": 3,
+          "before": "execute align xyz unless entity @e[type=marker,tag=stellarity.end_portal,distance=..5] run summon marker ~0.5 ~0.5 ~0.5 {Tags:[\"stellarity.end_portal_animation\",\"stellarity.end_portal_animation.check_schedule\"],NoGravity:1b}",
+          "after": "execute align xyz unless entity @e[type=marker,tag=stellarity.end_portal,distance=..5,limit=1,sort=arbitrary] run summon marker ~0.5 ~0.5 ~0.5 {Tags:[\"stellarity.end_portal_animation\",\"stellarity.end_portal_animation.check_schedule\"],NoGravity:1b}"
+        }
+      ]
+    }
+  ]
+}

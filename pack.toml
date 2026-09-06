@@ -1,13 +1,13 @@
 name = "Lunatic Craft"
 author = "Tsukuyomi Luna & shun"
-version = "0.1.12"
+version = "0.1.13"
 description = "工業・魔術・探索・ボス・終盤クラフトを横断する Minecraft 1.20.1 Forge modpack"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "ecf0d606cb0bfb24026f078e7e2af8ef055611ab15db4596ac88a256a280aaf9"
+hash = "2be151c3e330674e52a271783a9a53cfacdd1568240d5c65654db67282c1e3f6"
 
 [versions]
 forge = "47.4.22"
