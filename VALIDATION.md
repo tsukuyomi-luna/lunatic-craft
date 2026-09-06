@@ -1,5 +1,14 @@
 # Validation
 
+## 2026-09-07 / Lunatic Craft 0.1.14
+
+- Added Additional Enchanted Miner 1201.1.136 and Scalable Cat's Force 3.3.1; removed Enhanced Hordes only. Kept existing recipes and other difficulty mods unchanged.
+- Parsed TOML metadata, refreshed packwiz, verified both release ZIPs; CurseForge export has 257 unique projects and excludes Enhanced Hordes.
+- Saved and stopped the empty production server; verified gzip integrity and SHA-256 of the 1.3 GiB pre-update archive `lunatic-pre-0.1.14-20260906T180743Z.tar.gz`.
+- Production synchronized main, both new JAR SHA-1 values match pack metadata, Enhanced Hordes JAR is absent, and Forge lists quarryplus 1201.1.136.
+- Reached `Done (5.765s)` on 2026-09-06 18:09:59 UTC; service active, ports 25565/25575 open, RCON list succeeds.
+- Client sync/login, JEI, crafting, mining and pumping are not yet interactively verified. Initial QuarryPlus defaults/registry remapping warnings were emitted; boot success is not a claim that all gameplay is validated.
+
 ## 2026-09-06 / Lunatic Craft 0.1.12
 
 - Node syntax checks and the isolated recipe-event test pass for all 20 new recipes (12 L2 alternatives and eight adjacent 9:1 rarity steps), machine ingredient limits, and removal of bedrock only from the soul-fire base tag
