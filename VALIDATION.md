@@ -391,3 +391,10 @@ Stellarity and YUNG's Better End Island both modify End generation. The server r
 - Pre-deploy clean-stop backup `lunatic-craft-pre-0.1.13-20260906T153022Z.tar.gz` passed gzip and SHA256 checks. Saved owner Curios had 30 slot groups / 26 equipped items.
 - Production synced all 30 function hashes; reached `Done (5.982s)` at 15:32:32 UTC with service active. No function parse errors found; unrelated existing recipe warnings remain. No live reload used.
 - Interactive item mechanics and performance delta pending follow-up measurement; do not label all behavior client-tested.
+
+### 0.1.13 post-change profile
+
+- Player joined at 15:33:59; sampled 15:34:17–15:36:17. Result https://spark.lucko.me/zeTYn7IkEd (baseline https://spark.lucko.me/ioB4kuygFq).
+- Baseline 2148 ticks / 119944 sampled ms; after 1853 ticks / 119920 ms. Inclusive function costs normalized per tick: tick functions 5.101→5.028 ms, scheduled functions 5.682→5.859 ms; combined 10.783→10.887 ms. **No meaningful improvement demonstrated.** Percent-of-total fell 19.30→16.82%, but this is not a valid speedup claim because the denominator changed.
+- Baseline minute windows TPS 17.53/18.13, median MSPT 55.23/52.97, entities 1159/1146. After TPS 14.39/15.89, median MSPT 55.72/54.20, entities 1076/1281 and loaded chunks 12175/12506. Dynamic gameplay/restart/GC conditions differed, so lower post-change TPS cannot be attributed solely to this patch.
+- Conservative patch remains deployed; it is not presented as a demonstrated lag fix. Further meaningful work requires auditing feature activation/lifetime rather than only query filter order. Full feature-mechanics equivalence still requires interactive tests.
