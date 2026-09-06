@@ -3,7 +3,9 @@
 import hashlib, json, re, sys, zipfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-jar=Path(sys.argv[1]); z=zipfile.ZipFile(jar)
+jar=Path(sys.argv[1])
+assert hashlib.sha256(jar.read_bytes()).hexdigest()=="7cf2f221caa42e7a49754f8e788b07abeee3dac0545a30dc207c9deefe18a0a2", "Unexpected Stellarity version; audit before regenerating"
+z=zipfile.ZipFile(jar)
 HOT={'main','items/main','mobs/main','utils/main','mobs/stronghold/main'}
 def parts(s):
     out=[];start=0;depth=0;quote=False;escape=False

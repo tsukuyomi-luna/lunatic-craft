@@ -382,3 +382,12 @@ Stellarity and YUNG's Better End Island both modify End generation. The server r
 - IDAS logs missing optional Ice and Fire biome tags and loot entries even though its Ice and Fire structures are disabled.
 - Iron's Spells 1.20.1 logs errors for a small number of lore-book loot tables; this is reproduced upstream on 1.20.1 and does not prevent startup.
 - Sophisticated Storage logs skipped compatibility recipes for Quark chest variants that are not present.
+
+## 0.1.13 conservative Stellarity selector optimization
+
+- Source-pinned generator produces 30 function overrides (86 changed command lines), with before/after manifest and per-original SHA256.
+- Verified actual 1.20.1 server selector parser composes predicates with ordered `Predicate.and`. Moved tags only across pure filters; location predicates inspected for absence of random/reference conditions.
+- Existence-only execute conditions short-circuit at one result without sorting. Stored results, entity targeting, random sorting, NBT selectors and loot predicates are excluded from this transformation. Execution periods and final run actions remain unchanged.
+- Pre-deploy clean-stop backup `lunatic-craft-pre-0.1.13-20260906T153022Z.tar.gz` passed gzip and SHA256 checks. Saved owner Curios had 30 slot groups / 26 equipped items.
+- Production synced all 30 function hashes; reached `Done (5.982s)` at 15:32:32 UTC with service active. No function parse errors found; unrelated existing recipe warnings remain. No live reload used.
+- Interactive item mechanics and performance delta pending follow-up measurement; do not label all behavior client-tested.
