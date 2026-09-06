@@ -85,8 +85,20 @@ file = "kubejs/data/tofucraft/recipes/integration/botanypot/crop/botanypot_soybe
 hash = "4c788b1a85441b0d2815797a0d1dadacddf8bdecf41d968c6371c57f70f35fec"
 
 [[files]]
+file = "kubejs/server_scripts/affix_material_compression.js"
+hash = "165c1c62f4c86741f16a3043d49d1ae8a629f328d72dd91943818fcb697af94b"
+
+[[files]]
+file = "kubejs/server_scripts/compatibility.js"
+hash = "7e358cc4c45785739e78a59e83ca802bfa313297ffd24b597db9a0c6a196e5e2"
+
+[[files]]
 file = "kubejs/server_scripts/endgame_progression.js"
 hash = "1c3d6ff8d088ef4d1a99598a90771c971ab083ea3703a128e18f8e157eefc252"
+
+[[files]]
+file = "kubejs/server_scripts/l2_material_alternatives.js"
+hash = "9bfa8018f8e2a6a37c2a9be5acf1f613cfec57ac68d6fdc6c6ab5b09840e8881"
 
 [[files]]
 file = "kubejs/startup_scripts/always_edible.js"
@@ -869,6 +881,11 @@ metafile = true
 [[files]]
 file = "mods/mns-moogs-nether-structures.pw.toml"
 hash = "97558d7942992d09a861960cd7c9153cb44044d5b6c9982342c8cf7f853ad4bd"
+metafile = true
+
+[[files]]
+file = "mods/mob-grinding-utils.pw.toml"
+hash = "22ffca942573f1c39cc6c495122a31706a12eeb655c013c6c017aa1306ccaf7b"
 metafile = true
 
 [[files]]

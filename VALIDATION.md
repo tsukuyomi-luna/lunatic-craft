@@ -1,5 +1,12 @@
 # Validation
 
+## 2026-09-06 / Lunatic Craft 0.1.12
+
+- Node syntax checks and the isolated recipe-event test pass for all 20 new recipes (12 L2 alternatives and eight adjacent 9:1 rarity steps), machine ingredient limits, and removal of bedrock only from the soul-fire base tag
+- Recipe schemas and item IDs checked against installed JAR resources; rarity order checked against Apotheosis / Apotheotic Additions rarity ordinals
+- 253 unique mod projects; all JSON/TOML parse, CurseForge export contains 256 projects and passes ZIP integrity checks
+- Production deployment and interactive crafting checks pending
+
 ## 2026-09-03 / Lunatic Craft 0.1.11
 
 - Removed client-only Animation Overhaul and added client-only Stylish Effects 8.0.4

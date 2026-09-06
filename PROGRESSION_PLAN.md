@@ -67,9 +67,9 @@ This is the working plan for survival testing. The first endgame recipe pass is 
 - TaCZ workbench and ammunition economy
 - FTB Ultimine limits and hunger cost
 
-## Proposed L2 Complements material alternatives
+## L2 Complements material alternatives — implemented in 0.1.12
 
-These are proposals only for a later recipe pass. The original event-based acquisition methods remain enabled until the whole set is tested together.
+Implemented as additional recipes in 0.1.12. Original event-based acquisition remains enabled. Exact quantities and machine costs are in docs/l2-material-alternatives.md; interactive machine crafting remains a validation task.
 
 - `blackstone_core`: combine gilded blackstone, ancient debris, a Piglin Rune, and a Nether Star. This preserves Nether and Piglin progression without requiring the exact Incarceration kill.
 - `hard_ice`: combine blue ice, powdered snow, a Heart of the Sea, and an Echo Shard. This keeps the cold, aquatic, and Deep Dark themes without the Drowned-in-powdered-snow setup.
