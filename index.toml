@@ -499,6 +499,11 @@ hash = "919eac641320df56ffaad0132877cb67bd8b942ee23eeb0f137993c8df18b952"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "11b62d086529833b454fdd6de19798baacbb078d16683c1b0ce4c421d4a9dafb"
+metafile = true
+
+[[files]]
 file = "mods/coroutil.pw.toml"
 hash = "9f2bb57e05bad305f03c25c275c6d11e952835a41b2da68dba10a0bd1f3f6261"
 metafile = true
@@ -524,8 +529,18 @@ hash = "fbd9aa57290eab3802b187f1baa9939dee9db2676653d923e31061b8deef0645"
 metafile = true
 
 [[files]]
+file = "mods/create-blocks-bogies.pw.toml"
+hash = "800d6780cc224976069c0416e92186eb2ce769baed25dfffc302306881815dd3"
+metafile = true
+
+[[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "3b211a48ecbb99596ef0e32d84be394eb41761be7619b39412cd34097eeba3aa"
+metafile = true
+
+[[files]]
+file = "mods/create-deco.pw.toml"
+hash = "fee58a333eaf51d4862fee34fe8ba7cb70140500023e06aca3c9fcf0e0f34719"
 metafile = true
 
 [[files]]

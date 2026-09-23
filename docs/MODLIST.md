@@ -1,6 +1,6 @@
 # MOD一覧
 
-0.1.14時点で254件のmodと4件のTaCZ gun pack metadataを管理しています
+0.1.15時点で257件のmodと4件のTaCZ gun pack metadataを管理しています
 
 | Mod / Gun Pack | Side |
 |---|---|
@@ -74,7 +74,10 @@
 | Crafting Tweaks | `both` |
 | Create | `both` |
 | Create Crafts & Additions | `both` |
+| Create Deco | `both` |
+| Create: Blocks & Bogies | `both` |
 | Create: Central Kitchen | `both` |
+| Create: Copycats+ | `both` |
 | Create: Diesel Generators | `both` |
 | Create: Steam 'n' Rails | `both` |
 | Cucumber Library | `both` |

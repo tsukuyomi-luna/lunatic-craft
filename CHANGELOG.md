@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.15 - 2026-09-24
+
+- Create: Blocks & Bogies 1.0.8、Create Deco 2.0.3、Create: Copycats+ 3.0.10を追加
+- 動画のExtended Bogeys BorkedはCreate 0.5.1専用のため、現行Create 6.0.8対応の後継Blocks & Bogiesを採用
+- Create: Design n' Decor 2.1.0は既存環境とのregistry競合でdedicated serverが起動しないため除外
+
 ## 0.1.14 - 2026-09-07
 
 - Additional Enchanted Miner 1201.1.136と必須依存のScalable Cat's Force 3.3.1を追加
