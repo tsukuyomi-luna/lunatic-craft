@@ -1,5 +1,15 @@
 # Validation
 
+## 2026-09-24 / Lunatic Craft 0.1.15
+
+- Added Create: Blocks & Bogies 1.0.8, Create Deco 2.0.3, and Create: Copycats+ 3.0.10 for Create 6.0.8. Extended Bogeys Borked was not added because its Forge build targets Create 0.5.1; Blocks & Bogies is its current replacement and declares Create 6.0.7 or newer.
+- Create: Design n' Decor 2.1.0 was tested but removed: the production dedicated server failed during registry setup with its `belt_connector` BlockItem missing a block and follow-on Supplementaries registry errors. A second boot after removal confirmed it was absent.
+- Parsed all TOML metadata, refreshed the packwiz index, checked all four candidate JAR SHA-1 values against metadata, and inspected their declared Create dependency ranges before deployment. The final pack manages 257 mods and four TaCZ gun-pack metadata entries.
+- Confirmed zero online players, saved and stopped production, then created `/opt/minecraft/backups/lunatic-pre-0.1.15-20260923T165450Z.tar.gz`; gzip integrity, required entries, SHA-256, and its 1.7 GiB size were verified.
+- Production synchronized commit `ea37f202f950c9e79bb78aeb3cc5541585c3b613`; the three installed JAR SHA-1 values match pack metadata, Design n' Decor is absent, and Forge lists `copycats 3.0.10`, `create_bb 1.0.8`, and `createdeco 2.0.3`.
+- Reached `Done (5.522s)` on 2026-09-23 17:12:41 UTC; service active, ports 25565/25575 open, RCON list succeeds, and Discord Integration started.
+- Client synchronization/login, block rendering, bogey selection and assembly, train movement, recipes, and interactions with existing trains remain interactive checks.
+
 ## 2026-09-07 / Lunatic Craft 0.1.14
 
 - Added Additional Enchanted Miner 1201.1.136 and Scalable Cat's Force 3.3.1; removed Enhanced Hordes only. Kept existing recipes and other difficulty mods unchanged.
